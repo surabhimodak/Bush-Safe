@@ -1,0 +1,6 @@
+0000.000 (0) Opened log file at time: Wed, 31 Mar 2021 05:26:51 +0000 on http://bush-safe.ga
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.50 WP: 5.5.3 PHP: 7.4.9 (apache2handler, Linux bush-safe-vm 4.9.0-13-amd64 #1 SMP Debian 4.9.228-1 (2020-07-05) x86_64) MySQL: 5.7.31 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.1M | 2M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: N
+0000.008 (0) Free space on disk containing Updraft's temporary directory: 6396.3 MB
+0000.012 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.015 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.020 (0) Scheduled backup aborted - another backup of this type was apparently invoked by the WordPress scheduler only 271 seconds ago - the WordPress scheduler invoking events multiple times usually indicates a very overloaded server (or other plugins that mis-use the scheduler)
