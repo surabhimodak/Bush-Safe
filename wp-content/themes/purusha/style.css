@@ -1,0 +1,466 @@
+/*
+Theme Name: Purusha
+Theme URI: https://wpkoi.com/purusha-wpkoi-wordpress-theme/
+Template: lalita
+Author: wpkoithemes
+Author URI: https://wpkoi.com
+Description: Purusha is a child theme for Lalita WPKoi theme. You can find theme demos at wpkoi.com. Purusha has a dark, modern style and design for portfolio, business or agency content. The theme is multipurpose, so if You like the style, You can use it to represent Your art, business, an event, show Your portfolio, start a blog, start a webshop and sell Your products etc. The demos use Elementor, WooCommerce and Contact Form 7 plugins. The premium demo uses the Purusha premium plugin also. Purusha has an easy to use admin with a lot of customizer functions, so You can build Your dream without coding knowledge. The theme is responsive so looks good on almost every devices. You can setup multiple header styles, navigation styles and layouts. Build You site with Purusha Theme and share it with the world! You can also find a documentation with an install guide and a tutorial for the screenshot look on wpkoi.com/docs.
+Version: 1.0.1
+Tested up to: 5.7.0
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: purusha
+Tags: two-columns, three-columns, one-column, right-sidebar, left-sidebar, footer-widgets, blog, e-commerce, flexible-header, full-width-template, custom-header, custom-background, custom-menu, custom-colors, sticky-post, threaded-comments, translation-ready, featured-images
+
+*/
+
+body {
+  background-color: #222222;
+}
+
+.purusha-preloader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: #222222;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  transition: opacity 0.1s linear;
+}
+
+.purusha-preloader:before {
+  position: absolute;
+  content: "";
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  border-bottom: 0 solid #ffffff05;
+
+  box-shadow: 0 -10px 20px 20px #ffffff40 inset,
+    0 -5px 15px 10px #ffffff50 inset, 0 -2px 5px #ffffff80 inset,
+    0 -3px 2px #ffffffbb inset, 0 2px 0px #ffffff, 0 2px 3px #ffffff,
+    0 5px 5px #ffffff90, 0 10px 15px #ffffff60, 0 10px 20px 20px #ffffff40;
+  filter: blur(3px);
+  animation: 2s rotate linear infinite;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.elementor-editor-active .purusha-preloader {
+  display: none !important;
+}
+
+.purusha-scrollbar-style::-webkit-scrollbar {
+  width: 12px;
+}
+
+.purusha-scrollbar-style::-webkit-scrollbar-track {
+  background: #555555;
+  border-radius: 0px;
+}
+
+.purusha-scrollbar-style::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 0px;
+}
+
+.purusha-scrollbar-style::-webkit-scrollbar-thumb:hover {
+  background: #dddddd;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.inside-top-bar {
+  padding: 5px 50px;
+}
+
+.top-bar {
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.inside-header {
+  padding: 5px 50px 0;
+}
+
+.main-title {
+  text-transform: none;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.purusha-logo-pulse .main-title {
+  animation: glitch 1s linear infinite;
+}
+
+@keyframes glitch {
+  2%,
+  64% {
+    transform: translate(1px, 0) skew(0deg);
+  }
+  4%,
+  60% {
+    transform: translate(-1px, 0) skew(0deg);
+  }
+  62% {
+    transform: translate(0, 0) skew(5deg);
+  }
+}
+
+.main-navigation a {
+  font-weight: 400;
+  text-transform: none;
+  font-size: 22px;
+}
+
+.main-navigation .main-nav ul li a,
+.main-navigation .mobile-bar-items a,
+.menu-toggle {
+  padding-left: 9px;
+  padding-right: 9px;
+  line-height: 55px;
+}
+
+.menu-item-has-children .dropdown-menu-toggle {
+  padding-left: 9px;
+}
+
+button.menu-toggle:hover,
+button.menu-toggle:focus {
+  background-color: inherit;
+}
+
+.navigation-effect-stylea
+  #site-navigation
+  .main-nav
+  ul
+  li.menu-item
+  a:focus::after,
+.navigation-effect-stylea
+  #site-navigation
+  .main-nav
+  ul
+  li.menu-item
+  a:focus::before,
+.navigation-effect-stylea
+  #site-navigation
+  .main-nav
+  ul
+  li.menu-item
+  a:hover::after,
+.navigation-effect-stylea
+  #site-navigation
+  .main-nav
+  ul
+  li.menu-item
+  a:hover::before,
+.navigation-effect-stylea
+  #site-navigation
+  .main-nav
+  ul
+  li.menu-item.current-menu-item
+  a::after,
+.navigation-effect-stylea
+  #site-navigation
+  .main-nav
+  ul
+  li.menu-item.current-menu-item
+  a::before {
+  font-weight: 700;
+}
+
+.button,
+.woocommerce a.button,
+.woocommerce button.button {
+  padding: 12px 25px;
+}
+
+.button,
+.button:visited,
+button:not(.menu-toggle),
+html input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.woocommerce a.button {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: none;
+}
+
+.button,
+.woocommerce a.button,
+.woocommerce button.button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.woocommerce a.button {
+  border: 2px solid;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"],
+a.button,
+a.button:visited {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+button:hover,
+html input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+a.button:hover,
+button:focus,
+html input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+a.button:focus {
+  transform: scale(1.1);
+}
+
+body:not(.mobile-header-logo) #mobile-header .menu-toggle {
+  transform: none !important;
+}
+
+.site-info {
+  font-size: 17px;
+  font-weight: 400;
+  padding: 10px 50px;
+}
+
+.lalita-back-to-top,
+.lalita-back-to-top:visited {
+  border-radius: 50px;
+  right: 10px;
+}
+
+.lalita-side-left-content {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 270px 0px 0px 0px;
+}
+
+.lalita-side-left-content .lalita-side-left-socials ul {
+  padding: 15px 4px;
+}
+
+.lalita-side-left-content .lalita-side-left-text {
+  padding: 4px 15px;
+}
+
+.page-header-blog-content-h,
+.page-header-blog-inner-img {
+  display: inline-block;
+  padding: 0;
+  height: auto;
+  vertical-align: middle;
+}
+
+.page-header-blog-content-h {
+  width: 55%;
+}
+
+.page-header-blog-inner-img {
+  width: 42%;
+}
+
+.page-header-blog img {
+  margin: 15px auto 0;
+}
+
+.page-header-blog-content-h .page-header-blog-content {
+  margin: 0;
+  text-align: center;
+  padding: 0;
+}
+
+.page-header-blog-text,
+.page-header-blog-button {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+.page-header-blog-content h2 {
+  font-size: 50px;
+  font-weight: 700;
+  padding: 0;
+  line-height: 1.2;
+  margin-bottom: 5%;
+  text-shadow: none !important;
+}
+
+.page-header-blog-content h2,
+.page-header-blog-content p,
+.page-header-blog-content .page-header-blog-button {
+  margin-left: 30px;
+}
+
+.page-header-blog-content p {
+  font-size: 22px;
+  font-weight: 400;
+  width: 70%;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.page-header-blog-content a.button {
+  border-radius: 0;
+  margin-bottom: 10px;
+  text-transform: none;
+  font-weight: 700;
+}
+
+.page-header-blog {
+  padding: 0;
+  overflow: visible;
+}
+
+.page-header-blog-inner {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.page-header-blog-inner-img {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.site-footer .footer-widgets-container .inner-padding {
+  padding: 0 0 20px 40px;
+}
+
+.footer-widgets {
+  padding: 50px;
+}
+
+.widget-title {
+  font-weight: 700;
+}
+
+.footer-bar .lalita-social-bar {
+  float: right;
+}
+
+.footer-bar .lalita-socials-list li {
+  display: inline-block;
+  padding-left: 8px;
+}
+
+.elementor-page .screen-reader-text {
+  top: inherit;
+}
+
+.post-type-archive-product.post-image-above-header.woocommerce-page
+  .post-image {
+  display: none;
+}
+
+.purusha-img-effect .post-image img {
+  transition-duration: 0.5s;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.purusha-img-effect .post-image img:hover {
+  transition-duration: 0.5s;
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+.entry-summary a,
+.entry-content a,
+.comment-content a,
+.textwidget a {
+  text-decoration: underline;
+}
+
+body .grid-container {
+  max-width: 1180px;
+}
+
+@media (max-width: 1200px) {
+  .page-header-blog-content-h .page-header-blog-content {
+    padding: 0;
+  }
+
+  .page-header-blog-content h2 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .page-header-blog-content-h h2 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-header-blog-content-h,
+  .page-header-blog-inner-img {
+    display: block;
+    width: 100%;
+  }
+
+  .page-header-blog-content-h h2 {
+    font-size: 40px;
+    margin-top: 30px;
+  }
+
+  .page-header-blog-content-h p {
+    font-size: 22px;
+    width: 90%;
+  }
+
+  .page-header-blog-content-h .page-header-blog-content,
+  .page-header-blog-image {
+    width: initial;
+    margin: 0;
+  }
+
+  .page-header-blog-content a.button {
+    margin-left: 0;
+  }
+
+  body {
+    padding: 0;
+  }
+
+  .lalita-side-left-cover,
+  .lalita-side-right-cover {
+    width: 0;
+  }
+
+  .footer-bar .widget,
+  .footer-bar .lalita-social-bar {
+    float: none;
+    margin: 0 10px;
+  }
+  
+  .navigation-effect-styleb #site-navigation .main-nav ul li.menu-item a::after,
+  .navigation-effect-styleb #site-navigation .main-nav ul li.menu-item a::before {
+	width: 0 !important;
+  }
+}

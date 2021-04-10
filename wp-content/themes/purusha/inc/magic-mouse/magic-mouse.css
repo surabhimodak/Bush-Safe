@@ -1,0 +1,47 @@
+#magicMouseCursor {
+    position: fixed;
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 0;
+    background: url('../../img/purusha-cursor.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 9999;
+    left: 16px;
+    top: 16px;
+    transition: transform 0.07s, width 0.3s, height 0.3s;
+    pointer-events: none;
+}
+body #magicMouseCursor.cursor-square {
+    border-radius: 0;
+}
+body #magicPointer {
+    height: 455px;
+    width: 455px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: radial-gradient(rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 50%);
+    ;
+    border-radius: 50%;
+    pointer-events: none;
+    transition: background 0.2s, width 0.2s, height 0.2s, box-shadow 0.2s;
+}
+body #magicPointer.is-hover {
+    background: red;
+}
+body #magicPointer.pointer-blur {
+    height: 32px;
+    width: 32px;
+}
+body #magicPointer.pointer-overlay {
+    height: 50px;
+    width: 50px;
+}
+body .magic-hover {
+    transition: all 0.2s;
+}
+body .magic-hover:hover, a, input[type="submit"]:hover {
+    cursor: none;
+}

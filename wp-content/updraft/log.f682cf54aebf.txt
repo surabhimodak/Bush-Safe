@@ -1,0 +1,762 @@
+0000.001 (0) Opened log file at time: Thu, 08 Apr 2021 05:35:50 +0000 on http://bush-safe.ga
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.50 WP: 5.7 PHP: 7.4.9 (apache2handler, Linux bush-safe-vm 4.9.0-13-amd64 #1 SMP Debian 4.9.228-1 (2020-07-05) x86_64) MySQL: 5.7.31 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.2M | 2M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: N
+0000.009 (0) Free space on disk containing Updraft's temporary directory: 5730.4 MB
+0000.021 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.025 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.032 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1617776803, seconds_ago=83347)
+0000.043 (0) Set semaphore last lock (fd) time to 2021-04-08 05:35:50
+0000.047 (0) Semaphore lock (fd) complete
+0000.055 (0) Backup run: resumption=0, nonce=f682cf54aebf, file_nonce=f682cf54aebf begun at=1617860150 (0s ago), job type=backup
+0000.060 (0) Scheduling a resumption (1) after 300 seconds (1617860450) in case this run gets aborted
+0000.067 (0) Checking if we have a zip executable available
+0000.075 (0) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0000.078 (0) Creation of backups of directories: beginning
+0000.088 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.161 (0) Total entities for the zip file: 743 directories, 5134 files (0 skipped as non-modified), 79.4 MB
+0000.166 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 81322.8 KB, split: 409600 KB)
+0000.171 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.176 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.180 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.185 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.189 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.194 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.199 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.203 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.207 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.211 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.216 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0000.220 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0000.225 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0000.229 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0000.234 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 1500 files added (on-disk size: 0 KB)
+0000.238 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 1600 files added (on-disk size: 0 KB)
+0000.243 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 1700 files added (on-disk size: 0 KB)
+0000.248 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 1800 files added (on-disk size: 0 KB)
+0000.252 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 1900 files added (on-disk size: 0 KB)
+0000.257 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 2000 files added (on-disk size: 0 KB)
+0000.262 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 2100 files added (on-disk size: 0 KB)
+0000.267 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 2200 files added (on-disk size: 0 KB)
+0000.271 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 2300 files added (on-disk size: 0 KB)
+0000.276 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 2400 files added (on-disk size: 0 KB)
+0000.281 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 2500 files added (on-disk size: 0 KB)
+0000.286 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 2600 files added (on-disk size: 0 KB)
+0000.290 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 2700 files added (on-disk size: 0 KB)
+0000.295 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 2800 files added (on-disk size: 0 KB)
+0000.299 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 2900 files added (on-disk size: 0 KB)
+0000.305 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 3000 files added (on-disk size: 0 KB)
+0000.310 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 3100 files added (on-disk size: 0 KB)
+0000.314 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 3200 files added (on-disk size: 0 KB)
+0000.318 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 3300 files added (on-disk size: 0 KB)
+0000.323 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 3400 files added (on-disk size: 0 KB)
+0000.327 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 3500 files added (on-disk size: 0 KB)
+0000.331 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 3600 files added (on-disk size: 0 KB)
+0000.336 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 3700 files added (on-disk size: 0 KB)
+0000.340 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 3800 files added (on-disk size: 0 KB)
+0000.345 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 3900 files added (on-disk size: 0 KB)
+0000.350 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 4000 files added (on-disk size: 0 KB)
+0000.354 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 4100 files added (on-disk size: 0 KB)
+0000.359 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 4200 files added (on-disk size: 0 KB)
+0000.363 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 4300 files added (on-disk size: 0 KB)
+0000.368 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 4400 files added (on-disk size: 0 KB)
+0000.373 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 4500 files added (on-disk size: 0 KB)
+0000.378 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 4600 files added (on-disk size: 0 KB)
+0000.382 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 4700 files added (on-disk size: 0 KB)
+0000.387 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 4800 files added (on-disk size: 0 KB)
+0000.391 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 4900 files added (on-disk size: 0 KB)
+0000.396 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 5000 files added (on-disk size: 0 KB)
+0000.401 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip.tmp: 5100 files added (on-disk size: 0 KB)
+0025.484 (0) Created plugins zip (0) - 25472.3 KB in 25.4 s (1003.2 KB/s) (sha1: 679d6e2232ab3baa16e2cba7afd11b4c39500550, sha256: d551601d7b4dfb196559d5bc7382385222033ba5ccc1086fbb4f314ce969942b)
+0025.493 (0) Beginning creation of dump of themes (split every: 400 MB)
+0025.535 (0) Total entities for the zip file: 349 directories, 2335 files (0 skipped as non-modified), 34.1 MB
+0025.540 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 34967.2 KB, split: 409600 KB)
+0025.544 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0025.549 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0025.554 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0025.559 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0025.564 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0025.569 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0025.574 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0025.578 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0025.583 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0025.588 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0025.594 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0025.599 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0025.604 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0025.609 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0025.614 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip.tmp: 1500 files added (on-disk size: 0 KB)
+0025.618 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip.tmp: 1600 files added (on-disk size: 0 KB)
+0025.623 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip.tmp: 1700 files added (on-disk size: 0 KB)
+0025.627 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip.tmp: 1800 files added (on-disk size: 0 KB)
+0025.631 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip.tmp: 1900 files added (on-disk size: 0 KB)
+0025.636 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip.tmp: 2000 files added (on-disk size: 0 KB)
+0025.640 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip.tmp: 2100 files added (on-disk size: 0 KB)
+0025.644 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip.tmp: 2200 files added (on-disk size: 0 KB)
+0025.648 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip.tmp: 2300 files added (on-disk size: 0 KB)
+0034.013 (0) Created themes zip (0) - 14338.5 KB in 8.5 s (1683.8 KB/s) (sha1: 63f11e7b12f58d15908be16aec3571d09dfecb2a, sha256: ef5d0dc968864cc9500588325db2ef8844fb05e91f9f95b0291768d17ebeda70)
+0034.021 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0034.025 (0) Looking for candidates to backup in: /var/www/html/wp-content/uploads
+0034.029 (0) finding files: fusion-icons: adding to list (1)
+0034.032 (0) finding files: 2020: adding to list (2)
+0034.036 (0) finding files: fusion-builder-avada-pages: adding to list (3)
+0034.039 (0) finding files: fusion-scripts: adding to list (4)
+0034.043 (0) finding files: fusion-styles: adding to list (5)
+0034.046 (0) finding files: 2021: adding to list (6)
+0034.048 (0) finding files: fusionredux: adding to list (7)
+0034.051 (0) finding files: revisr-backups: skipping: excluded by options (glob)
+0034.055 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0034.067 (0) Total entities for the zip file: 14 directories, 324 files (0 skipped as non-modified), 104.9 MB
+0034.071 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 107432.5 KB, split: 409600 KB)
+0034.076 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0034.081 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0034.086 (0) Zip: backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0039.864 (0) Created uploads zip (0) - 65347.1 KB in 5.8 s (11257.5 KB/s) (sha1: cd754dc5ade4d45d65ea2f2c66860c92b1784d1b, sha256: 242b43aba8f22ad59af5e4f3461ce33546b11b7363b6568a2a66a4c6af6e17ae)
+0039.873 (0) Beginning backup of other directories found in the content directory (index: 0)
+0039.877 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0039.881 (0) Looking for candidates to backup in: /var/www/html/wp-content
+0039.884 (0) finding files: themes: skipping: this is the themes directory
+0039.888 (0) finding files: uploads: skipping: this is the uploads directory
+0039.891 (0) finding files: index.php: adding to list (1)
+0039.894 (0) finding files: plugins: skipping: this is the plugins directory
+0039.895 (0) finding files: updraft: skipping: this is the updraft directory
+0039.899 (0) finding files: upgrade: skipping: excluded by options
+0039.907 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0039.911 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 0 KB, split: 409600 KB)
+0039.927 (0) Created others zip (0) - 0.1 KB in 0 s (5.9 KB/s) (sha1: 25e0198bce2cf5a1eaf4f847cfbb238215fa3463, sha256: 778b8040ef4c27fae2fdf5d9aa579a6fca73dff3a2b859104bdac29a0f1ea004)
+0039.942 (0) Saving backup status to database (elements: 8)
+0039.952 (0) Beginning creation of database dump (WordPress DB)
+0039.957 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0039.965 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0040.018 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+0040.027 (0) Binary mysqldump: error (code: 5)
+0040.064 (0) Table wp_options: Total expected rows (approximate): 355
+0040.247 (0) Table wp_options: Rows added in this batch (next record: 3346): 358 (uncompressed bytes in this segment=4321071) in 0.18 seconds
+0040.261 (0) Table wp_options: finishing file(s) (2, 706.6 KB)
+0040.269 (0) Table wp_users: Total expected rows (approximate): 1
+0040.275 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1382) in 0.00 seconds
+0040.287 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0040.295 (0) Table wp_usermeta: Total expected rows (approximate): 31
+0040.300 (0) Table wp_usermeta: Rows added in this batch (next record: 31): 31 (uncompressed bytes in this segment=5366) in 0.00 seconds
+0040.312 (0) Table wp_usermeta: finishing file(s) (2, 2.1 KB)
+0040.320 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0040.325 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.00 seconds
+0040.337 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0040.346 (0) Table wp_comments: Total expected rows (approximate): 1
+0040.351 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2137) in 0.00 seconds
+0040.364 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0040.372 (0) Table wp_links: Total expected rows (approximate): 0
+0040.377 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.00 seconds
+0040.388 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0040.396 (0) Table wp_postmeta: Total expected rows (approximate): 1570
+0040.415 (0) Table wp_postmeta: Rows added in this batch (next record: 1621): 1494 (uncompressed bytes in this segment=303278) in 0.02 seconds
+0040.427 (0) Table wp_postmeta: finishing file(s) (2, 39.5 KB)
+0040.435 (0) Table wp_posts: Total expected rows (approximate): 766
+0040.506 (0) Table wp_posts: Rows added in this batch (next record: 2021): 792 (uncompressed bytes in this segment=2656849) in 0.07 seconds
+0040.518 (0) Table wp_posts: finishing file(s) (2, 156.8 KB)
+0040.526 (0) Table wp_term_relationships: Total expected rows (approximate): 32
+0040.534 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 32 (uncompressed bytes in this segment=1167) in 0.00 seconds
+0040.543 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0040.552 (0) Table wp_term_taxonomy: Total expected rows (approximate): 9
+0040.560 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=1223) in 0.01 seconds
+0040.572 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0040.580 (0) Table wp_termmeta: Total expected rows (approximate): 32
+0040.585 (0) Table wp_termmeta: Rows added in this batch (next record: 32): 32 (uncompressed bytes in this segment=1834) in 0.00 seconds
+0040.596 (0) Table wp_termmeta: finishing file(s) (2, 0.7 KB)
+0040.604 (0) Table wp_terms: Total expected rows (approximate): 9
+0040.609 (0) Table wp_terms: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=1069) in 0.00 seconds
+0040.621 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0040.629 (0) Table wp_commentmeta_geo: Total expected rows (approximate): 0
+0040.634 (0) Table wp_commentmeta_geo: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=856) in 0.00 seconds
+0040.646 (0) Table wp_commentmeta_geo: finishing file(s) (2, 0.4 KB)
+0040.653 (0) Table wp_fusion_form_entries: Total expected rows (approximate): 12
+0040.659 (0) Table wp_fusion_form_entries: Rows added in this batch (next record: 12): 12 (uncompressed bytes in this segment=1493) in 0.00 seconds
+0040.668 (0) Table wp_fusion_form_entries: finishing file(s) (2, 0.7 KB)
+0040.675 (0) Table wp_fusion_form_fields: Total expected rows (approximate): 4
+0040.681 (0) Table wp_fusion_form_fields: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=935) in 0.00 seconds
+0040.692 (0) Table wp_fusion_form_fields: finishing file(s) (2, 0.5 KB)
+0040.700 (0) Table wp_fusion_form_submissions: Total expected rows (approximate): 3
+0040.705 (0) Table wp_fusion_form_submissions: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1479) in 0.00 seconds
+0040.716 (0) Table wp_fusion_form_submissions: finishing file(s) (2, 0.6 KB)
+0040.723 (0) Table wp_fusion_forms: Total expected rows (approximate): 3
+0040.728 (0) Table wp_fusion_forms: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=770) in 0.00 seconds
+0040.739 (0) Table wp_fusion_forms: finishing file(s) (2, 0.4 KB)
+0040.744 (0) Table wp_gmp_icons: Total expected rows (approximate): 47
+0040.749 (0) Table wp_gmp_icons: Rows added in this batch (next record: 47): 47 (uncompressed bytes in this segment=2718) in 0.00 seconds
+0040.759 (0) Table wp_gmp_icons: finishing file(s) (2, 0.8 KB)
+0040.766 (0) Table wp_gmp_maps: Total expected rows (approximate): 1
+0040.769 (0) Table wp_gmp_maps: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2860) in 0.00 seconds
+0040.779 (0) Table wp_gmp_maps: finishing file(s) (2, 1.3 KB)
+0040.784 (0) Table wp_gmp_marker_groups: Total expected rows (approximate): 0
+0040.789 (0) Table wp_gmp_marker_groups: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=579) in 0.00 seconds
+0040.800 (0) Table wp_gmp_marker_groups: finishing file(s) (2, 0.4 KB)
+0040.808 (0) Table wp_gmp_marker_groups_relation: Total expected rows (approximate): 0
+0040.813 (0) Table wp_gmp_marker_groups_relation: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=528) in 0.00 seconds
+0040.824 (0) Table wp_gmp_marker_groups_relation: finishing file(s) (2, 0.3 KB)
+0040.832 (0) Table wp_gmp_markers: Total expected rows (approximate): 0
+0040.837 (0) Table wp_gmp_markers: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=910) in 0.00 seconds
+0040.849 (0) Table wp_gmp_markers: finishing file(s) (2, 0.4 KB)
+0040.857 (0) Table wp_gmp_membership_presets: Total expected rows (approximate): 1
+0040.862 (0) Table wp_gmp_membership_presets: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=538) in 0.00 seconds
+0040.873 (0) Table wp_gmp_membership_presets: finishing file(s) (2, 0.3 KB)
+0040.880 (0) Table wp_gmp_modules: Total expected rows (approximate): 14
+0040.885 (0) Table wp_gmp_modules: Rows added in this batch (next record: 14): 14 (uncompressed bytes in this segment=1594) in 0.00 seconds
+0040.895 (0) Table wp_gmp_modules: finishing file(s) (2, 0.7 KB)
+0040.904 (0) Table wp_gmp_modules_type: Total expected rows (approximate): 4
+0040.908 (0) Table wp_gmp_modules_type: Rows added in this batch (next record: 7): 4 (uncompressed bytes in this segment=560) in 0.00 seconds
+0040.920 (0) Table wp_gmp_modules_type: finishing file(s) (2, 0.4 KB)
+0040.927 (0) Table wp_gmp_options: Total expected rows (approximate): 2
+0040.932 (0) Table wp_gmp_options: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1056) in 0.00 seconds
+0040.943 (0) Table wp_gmp_options: finishing file(s) (2, 0.6 KB)
+0040.952 (0) Table wp_gmp_options_categories: Total expected rows (approximate): 4
+0040.957 (0) Table wp_gmp_options_categories: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=626) in 0.00 seconds
+0040.967 (0) Table wp_gmp_options_categories: finishing file(s) (2, 0.4 KB)
+0040.976 (0) Table wp_gmp_usage_stat: Total expected rows (approximate): 4
+0040.982 (0) Table wp_gmp_usage_stat: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=887) in 0.00 seconds
+0040.993 (0) Table wp_gmp_usage_stat: finishing file(s) (2, 0.5 KB)
+0041.000 (0) Table wp_postmeta_geo: Total expected rows (approximate): 447
+0041.010 (0) Table wp_postmeta_geo: Rows added in this batch (next record: 447): 447 (uncompressed bytes in this segment=34344) in 0.01 seconds
+0041.020 (0) Table wp_postmeta_geo: finishing file(s) (2, 7.2 KB)
+0041.029 (0) Table wp_revisr: Total expected rows (approximate): 31
+0041.034 (0) Table wp_revisr: Rows added in this batch (next record: 31): 31 (uncompressed bytes in this segment=4385) in 0.00 seconds
+0041.044 (0) Table wp_revisr: finishing file(s) (2, 1 KB)
+0041.052 (0) Table wp_termmeta_geo: Total expected rows (approximate): 0
+0041.056 (0) Table wp_termmeta_geo: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=826) in 0.00 seconds
+0041.067 (0) Table wp_termmeta_geo: finishing file(s) (2, 0.4 KB)
+0041.075 (0) Table wp_usermeta_geo: Total expected rows (approximate): 0
+0041.080 (0) Table wp_usermeta_geo: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=828) in 0.00 seconds
+0041.091 (0) Table wp_usermeta_geo: finishing file(s) (2, 0.4 KB)
+0041.096 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_options.table.tmpr3347.gz (1/32): adding to final database dump
+0041.246 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_options.table.gz (2/32): adding to final database dump
+0041.250 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_users.table.tmpr2.gz (3/32): adding to final database dump
+0041.254 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_users.table.gz (4/32): adding to final database dump
+0041.257 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_usermeta.table.tmpr32.gz (5/32): adding to final database dump
+0041.261 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_usermeta.table.gz (6/32): adding to final database dump
+0041.264 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_commentmeta.table.tmpr0.gz (7/32): adding to final database dump
+0041.268 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_commentmeta.table.gz (8/32): adding to final database dump
+0041.271 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_comments.table.tmpr2.gz (9/32): adding to final database dump
+0041.275 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_comments.table.gz (10/32): adding to final database dump
+0041.278 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_links.table.tmpr0.gz (11/32): adding to final database dump
+0041.280 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_links.table.gz (12/32): adding to final database dump
+0041.283 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_postmeta.table.tmpr1622.gz (13/32): adding to final database dump
+0041.294 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_postmeta.table.gz (14/32): adding to final database dump
+0041.298 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_posts.table.tmpr2022.gz (15/32): adding to final database dump
+0041.343 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_posts.table.gz (16/32): adding to final database dump
+0041.348 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_term_relationships.table.tmpr100001.gz (17/32): adding to final database dump
+0041.352 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_term_relationships.table.gz (18/32): adding to final database dump
+0041.355 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_term_taxonomy.table.tmpr10.gz (19/32): adding to final database dump
+0041.358 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_term_taxonomy.table.gz (20/32): adding to final database dump
+0041.360 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_termmeta.table.tmpr33.gz (21/32): adding to final database dump
+0041.364 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_termmeta.table.gz (22/32): adding to final database dump
+0041.367 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_terms.table.tmpr10.gz (23/32): adding to final database dump
+0041.371 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_terms.table.gz (24/32): adding to final database dump
+0041.375 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_commentmeta_geo.table.tmpr0.gz (25/32): adding to final database dump
+0041.378 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_commentmeta_geo.table.gz (26/32): adding to final database dump
+0041.382 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_fusion_form_entries.table.tmpr13.gz (27/32): adding to final database dump
+0041.384 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_fusion_form_entries.table.gz (28/32): adding to final database dump
+0041.387 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_fusion_form_fields.table.tmpr5.gz (29/32): adding to final database dump
+0041.391 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_fusion_form_fields.table.gz (30/32): adding to final database dump
+0041.395 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_fusion_form_submissions.table.tmpr4.gz (31/32): adding to final database dump
+0041.398 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_fusion_form_submissions.table.gz (32/32): adding to final database dump
+0041.399 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_fusion_forms.table.tmpr4.gz (33/32): adding to final database dump
+0041.403 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_fusion_forms.table.gz (34/32): adding to final database dump
+0041.406 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_gmp_icons.table.tmpr48.gz (35/32): adding to final database dump
+0041.407 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_gmp_icons.table.gz (36/32): adding to final database dump
+0041.411 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_gmp_maps.table.tmpr2.gz (37/32): adding to final database dump
+0041.414 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_gmp_maps.table.gz (38/32): adding to final database dump
+0041.415 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_gmp_marker_groups.table.tmpr0.gz (39/32): adding to final database dump
+0041.419 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_gmp_marker_groups.table.gz (40/32): adding to final database dump
+0041.422 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_gmp_marker_groups_relation.table.tmpr0.gz (41/32): adding to final database dump
+0041.423 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_gmp_marker_groups_relation.table.gz (42/32): adding to final database dump
+0041.427 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_gmp_markers.table.tmpr0.gz (43/32): adding to final database dump
+0041.430 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_gmp_markers.table.gz (44/32): adding to final database dump
+0041.431 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_gmp_membership_presets.table.tmpr2.gz (45/32): adding to final database dump
+0041.435 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_gmp_membership_presets.table.gz (46/32): adding to final database dump
+0041.438 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_gmp_modules.table.tmpr15.gz (47/32): adding to final database dump
+0041.440 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_gmp_modules.table.gz (48/32): adding to final database dump
+0041.444 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_gmp_modules_type.table.tmpr8.gz (49/32): adding to final database dump
+0041.447 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_gmp_modules_type.table.gz (50/32): adding to final database dump
+0041.450 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_gmp_options.table.tmpr3.gz (51/32): adding to final database dump
+0041.454 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_gmp_options.table.gz (52/32): adding to final database dump
+0041.456 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_gmp_options_categories.table.tmpr5.gz (53/32): adding to final database dump
+0041.459 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_gmp_options_categories.table.gz (54/32): adding to final database dump
+0041.463 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_gmp_usage_stat.table.tmpr5.gz (55/32): adding to final database dump
+0041.466 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_gmp_usage_stat.table.gz (56/32): adding to final database dump
+0041.467 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_postmeta_geo.table.tmpr448.gz (57/32): adding to final database dump
+0041.472 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_postmeta_geo.table.gz (58/32): adding to final database dump
+0041.475 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_revisr.table.tmpr32.gz (59/32): adding to final database dump
+0041.479 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_revisr.table.gz (60/32): adding to final database dump
+0041.482 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_termmeta_geo.table.tmpr0.gz (61/32): adding to final database dump
+0041.483 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_termmeta_geo.table.gz (62/32): adding to final database dump
+0041.487 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_usermeta_geo.table.tmpr0.gz (63/32): adding to final database dump
+0041.491 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db-table-wp_usermeta_geo.table.gz (64/32): adding to final database dump
+0041.505 (0) Dumping routines for database wordpress
+0041.509 (0) Dumping routine: wp_buffer_point_m
+0041.513 (0) Dumping routine: wp_buffer_point_mi
+0041.517 (0) Dumping routine: wp_buffer_point_real
+0041.521 (0) Dumping routine: wp_distance_point_m
+0041.525 (0) Dumping routine: wp_distance_point_mi
+0041.528 (0) Dumping routine: wp_distance_point_real
+0041.532 (0) Dumping routine: wp_first_geom
+0041.536 (0) Dumping routine: wp_point_bearing_distance_coord_pair
+0041.540 (0) Dumping routine: wp_point_bearing_distance_to_line
+0041.543 (0) Dumping routine: wp_point_bearing_distance_to_line_m
+0041.547 (0) Dumping routine: wp_point_bearing_distance_to_line_mi
+0041.550 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db.gz: finished writing out complete database file (896 KB)
+0041.576 (0) Total database tables backed up: 32 (backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db.gz, size: 942691, sha1: b8a84856d75688452c43350f063d8cfbc9a59a6b, sha256: a56dcff9ec5b0b809a022afc158045e5c995af2d2ca18513a583b32b6acee50f)
+0041.593 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0041.597 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0041.600 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0041.604 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-others.zip: others: This file has not yet been successfully uploaded: will queue
+0041.608 (0) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db.gz: db: This file has not yet been successfully uploaded: will queue
+0041.612 (0) Saving backup history. Total backup size: 103.6 MB
+0041.620 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0041.630 (0) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+0041.632 (0) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-63a9f291e92eb82b7dbab2a149498438)
+0041.635 (0) UpdraftPlus Vault: this site has not been connected - check your settings
+0041.639 (0) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+0041.642 (0) An error condition has occurred for the first time during this job
+0041.648 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0041.651 (0) Number of backup sets in history: 3; groups (db): 1
+0041.655 (0) Examining (for databases) backup set with group_id=0, nonce=f682cf54aebf, datestamp=1617860150 (Apr 08 2021 05:35:50)
+0041.659 (0) This backup set is the backup set just made, so will not be deleted.
+0041.659 (0) Examining (for databases) backup set with group_id=0, nonce=801047ae8345, datestamp=1617776803 (Apr 07 2021 06:26:43)
+0041.659 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0041.663 (0) Examining (for databases) backup set with group_id=0, nonce=1f92dd500811, datestamp=1617693728 (Apr 06 2021 07:22:08)
+0041.663 (0) 1617693728: db: this set includes a database (backup_2021-04-06-0722_Bush_Safe_1f92dd500811-db.gz); db count is now 2
+0041.663 (0) 1617693728: db: over retain limit (2); will delete this database
+0041.663 (0) Delete file: backup_2021-04-06-0722_Bush_Safe_1f92dd500811-db.gz, service=updraftvault
+0041.666 (0) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+0041.672 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0041.675 (0) Number of backup sets in history: 3; groups (files): 1
+0041.678 (0) Examining (for files) backup set with nonce=f682cf54aebf, datestamp=1617860150 (Apr 08 2021 05:35:50)
+0041.678 (0) This backup set is the backup set just made, so will not be deleted.
+0041.679 (0) This backup set is the backup set just made, so will not be deleted.
+0041.679 (0) This backup set is the backup set just made, so will not be deleted.
+0041.679 (0) This backup set is the backup set just made, so will not be deleted.
+0041.680 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0041.683 (0) Examining (for files) backup set with nonce=801047ae8345, datestamp=1617776803 (Apr 07 2021 06:26:43)
+0041.683 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0041.683 (0) Examining (for files) backup set with nonce=1f92dd500811, datestamp=1617693728 (Apr 06 2021 07:22:08)
+0041.683 (0) plugins: over retain limit (2); will delete this file entity
+0041.683 (0) themes: over retain limit (2); will delete this file entity
+0041.683 (0) uploads: over retain limit (2); will delete this file entity
+0041.683 (0) others: over retain limit (2); will delete this file entity
+0041.683 (0) Delete file: backup_2021-04-06-0722_Bush_Safe_bb94cb7eb726-plugins.zip, service=updraftvault
+0041.686 (0) Deleting local copy (backup_2021-04-06-0722_Bush_Safe_bb94cb7eb726-plugins.zip)
+0041.697 (0) Delete file: backup_2021-04-06-0722_Bush_Safe_bb94cb7eb726-themes.zip, service=updraftvault
+0041.702 (0) Deleting local copy (backup_2021-04-06-0722_Bush_Safe_bb94cb7eb726-themes.zip)
+0041.710 (0) Delete file: backup_2021-04-06-0722_Bush_Safe_bb94cb7eb726-uploads.zip, service=updraftvault
+0041.713 (0) Deleting local copy (backup_2021-04-06-0722_Bush_Safe_bb94cb7eb726-uploads.zip)
+0041.734 (0) Delete file: backup_2021-04-06-0722_Bush_Safe_bb94cb7eb726-others.zip, service=updraftvault
+0041.739 (0) Deleting local copy (backup_2021-04-06-0722_Bush_Safe_bb94cb7eb726-others.zip)
+0041.743 (0) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+0041.750 (0) This backup set is now empty; will remove from history
+0041.752 (0) Deleting log file (log.1f92dd500811.txt)
+0041.755 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0041.767 (0) Resume backup (f682cf54aebf, 0): finish run
+0041.775 (0) Decremented the semaphore (fd) by 1
+0041.782 (0) Semaphore (fd) unlocked
+0041.786 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0041.795 (0) Rescheduling resumption 1: moving to 60 seconds from now (1617860251)
+0041.802 (0) The backup has not finished; a resumption is scheduled
+0118.471 (1) Opened log file at time: Thu, 08 Apr 2021 05:37:48 +0000 on http://bush-safe.ga
+0118.475 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.50 WP: 5.7 PHP: 7.4.9 (apache2handler, Linux bush-safe-vm 4.9.0-13-amd64 #1 SMP Debian 4.9.228-1 (2020-07-05) x86_64) MySQL: 5.7.31 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.3M | 2M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: N
+0118.478 (1) Free space on disk containing Updraft's temporary directory: 5731.5 MB
+0118.480 (1) Requesting backup semaphore lock (f682cf54aebf)
+0118.487 (1) [Lock option (updraft_lock_f682cf54aebf, wp_options) was created in the database] debug
+0118.491 (1) [Lock (updraft_lock_f682cf54aebf, wp_options) acquired after initialising the database] info
+0118.496 (1) Backup run: resumption=1, nonce=f682cf54aebf, file_nonce=f682cf54aebf begun at=1617860150 (118s ago), job type=backup, previous check-in=41.7s
+0118.503 (1) Scheduling a resumption (2) after 300 seconds (1617860568) in case this run gets aborted
+0118.508 (1) Checking if we have a zip executable available
+0118.511 (1) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0118.514 (1) Creation of backups of directories: already finished
+0118.515 (1) Saving backup status to database (elements: 8)
+0118.522 (1) Database dump (WordPress DB): Creation was completed already
+0118.524 (1) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0118.535 (1) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0118.539 (1) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0118.541 (1) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0118.543 (1) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-others.zip: others: This file has not yet been successfully uploaded: will queue
+0118.545 (1) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db.gz: db: This file has not yet been successfully uploaded: will queue
+0118.547 (1) Saving backup history. Total backup size: 103.6 MB
+0118.554 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+0118.559 (1) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+0118.563 (1) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-63a9f291e92eb82b7dbab2a149498438)
+0118.566 (1) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+0118.568 (1) An error condition has occurred for the first time during this job
+0118.575 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0118.578 (1) Number of backup sets in history: 2; groups (db): 1
+0118.579 (1) Examining (for databases) backup set with group_id=0, nonce=f682cf54aebf, datestamp=1617860150 (Apr 08 2021 05:35:50)
+0118.583 (1) This backup set is the backup set just made, so will not be deleted.
+0118.583 (1) Examining (for databases) backup set with group_id=0, nonce=801047ae8345, datestamp=1617776803 (Apr 07 2021 06:26:43)
+0118.583 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0118.586 (1) Number of backup sets in history: 2; groups (files): 1
+0118.588 (1) Examining (for files) backup set with nonce=f682cf54aebf, datestamp=1617860150 (Apr 08 2021 05:35:50)
+0118.588 (1) This backup set is the backup set just made, so will not be deleted.
+0118.591 (1) This backup set is the backup set just made, so will not be deleted.
+0118.591 (1) This backup set is the backup set just made, so will not be deleted.
+0118.591 (1) This backup set is the backup set just made, so will not be deleted.
+0118.591 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0118.594 (1) Examining (for files) backup set with nonce=801047ae8345, datestamp=1617776803 (Apr 07 2021 06:26:43)
+0118.594 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0118.594 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0118.599 (1) Resume backup (f682cf54aebf, 1): finish run
+0118.603 (1) [Lock option (updraft_lock_f682cf54aebf, wp_options) released] info
+0118.607 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0118.614 (1) The backup has not finished; a resumption is scheduled
+0527.364 (2) Opened log file at time: Thu, 08 Apr 2021 05:44:37 +0000 on http://bush-safe.ga
+0527.368 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.50 WP: 5.7 PHP: 7.4.9 (apache2handler, Linux bush-safe-vm 4.9.0-13-amd64 #1 SMP Debian 4.9.228-1 (2020-07-05) x86_64) MySQL: 5.7.31 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.3M | 2M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: N
+0527.372 (2) Free space on disk containing Updraft's temporary directory: 5731.5 MB
+0527.375 (2) Requesting backup semaphore lock (f682cf54aebf)
+0527.383 (2) [Lock (updraft_lock_f682cf54aebf, wp_options) acquired] info
+0527.390 (2) Backup run: resumption=2, nonce=f682cf54aebf, file_nonce=f682cf54aebf begun at=1617860150 (527s ago), job type=backup
+0527.396 (2) Scheduling a resumption (3) after 300 seconds (1617860977) in case this run gets aborted
+0527.405 (2) Checking if we have a zip executable available
+0527.410 (2) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0527.414 (2) Creation of backups of directories: already finished
+0527.418 (2) Saving backup status to database (elements: 8)
+0527.426 (2) Database dump (WordPress DB): Creation was completed already
+0527.430 (2) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0527.443 (2) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0527.446 (2) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0527.448 (2) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0527.451 (2) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-others.zip: others: This file has not yet been successfully uploaded: will queue
+0527.454 (2) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db.gz: db: This file has not yet been successfully uploaded: will queue
+0527.456 (2) Saving backup history. Total backup size: 103.6 MB
+0527.464 (2) Requesting upload of the files that have not yet been successfully uploaded (5)
+0527.471 (2) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+0527.475 (2) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-63a9f291e92eb82b7dbab2a149498438)
+0527.479 (2) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+0527.483 (2) An error condition has occurred for the first time during this job
+0527.488 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0527.492 (2) Number of backup sets in history: 2; groups (db): 1
+0527.495 (2) Examining (for databases) backup set with group_id=0, nonce=f682cf54aebf, datestamp=1617860150 (Apr 08 2021 05:35:50)
+0527.499 (2) This backup set is the backup set just made, so will not be deleted.
+0527.499 (2) Examining (for databases) backup set with group_id=0, nonce=801047ae8345, datestamp=1617776803 (Apr 07 2021 06:26:43)
+0527.499 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0527.503 (2) Number of backup sets in history: 2; groups (files): 1
+0527.507 (2) Examining (for files) backup set with nonce=f682cf54aebf, datestamp=1617860150 (Apr 08 2021 05:35:50)
+0527.507 (2) This backup set is the backup set just made, so will not be deleted.
+0527.510 (2) This backup set is the backup set just made, so will not be deleted.
+0527.511 (2) This backup set is the backup set just made, so will not be deleted.
+0527.511 (2) This backup set is the backup set just made, so will not be deleted.
+0527.511 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0527.514 (2) Examining (for files) backup set with nonce=801047ae8345, datestamp=1617776803 (Apr 07 2021 06:26:43)
+0527.514 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0527.514 (2) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0527.522 (2) Resume backup (f682cf54aebf, 2): finish run
+0527.528 (2) [Lock option (updraft_lock_f682cf54aebf, wp_options) released] info
+0527.535 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0527.540 (2) The backup has not finished; a resumption is scheduled
+1011.408 (3) Opened log file at time: Thu, 08 Apr 2021 05:52:41 +0000 on http://bush-safe.ga
+1011.412 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.50 WP: 5.7 PHP: 7.4.9 (apache2handler, Linux bush-safe-vm 4.9.0-13-amd64 #1 SMP Debian 4.9.228-1 (2020-07-05) x86_64) MySQL: 5.7.31 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.3M | 2M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: N
+1011.415 (3) Free space on disk containing Updraft's temporary directory: 5731.4 MB
+1011.418 (3) Requesting backup semaphore lock (f682cf54aebf)
+1011.423 (3) [Lock (updraft_lock_f682cf54aebf, wp_options) acquired] info
+1011.428 (3) Backup run: resumption=3, nonce=f682cf54aebf, file_nonce=f682cf54aebf begun at=1617860150 (1011s ago), job type=backup
+1011.434 (3) Scheduling a resumption (4) after 300 seconds (1617861461) in case this run gets aborted
+1011.440 (3) Checking if we have a zip executable available
+1011.442 (3) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+1011.446 (3) Creation of backups of directories: already finished
+1011.447 (3) Saving backup status to database (elements: 8)
+1011.455 (3) Database dump (WordPress DB): Creation was completed already
+1011.458 (3) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+1011.471 (3) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1011.474 (3) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1011.476 (3) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1011.479 (3) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-others.zip: others: This file has not yet been successfully uploaded: will queue
+1011.483 (3) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db.gz: db: This file has not yet been successfully uploaded: will queue
+1011.485 (3) Saving backup history. Total backup size: 103.6 MB
+1011.491 (3) Requesting upload of the files that have not yet been successfully uploaded (5)
+1011.496 (3) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+1011.499 (3) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-63a9f291e92eb82b7dbab2a149498438)
+1011.505 (3) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+1011.509 (3) An error condition has occurred for the first time during this job
+1011.516 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1011.520 (3) Number of backup sets in history: 2; groups (db): 1
+1011.524 (3) Examining (for databases) backup set with group_id=0, nonce=f682cf54aebf, datestamp=1617860150 (Apr 08 2021 05:35:50)
+1011.528 (3) This backup set is the backup set just made, so will not be deleted.
+1011.528 (3) Examining (for databases) backup set with group_id=0, nonce=801047ae8345, datestamp=1617776803 (Apr 07 2021 06:26:43)
+1011.528 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1011.531 (3) Number of backup sets in history: 2; groups (files): 1
+1011.535 (3) Examining (for files) backup set with nonce=f682cf54aebf, datestamp=1617860150 (Apr 08 2021 05:35:50)
+1011.535 (3) This backup set is the backup set just made, so will not be deleted.
+1011.538 (3) This backup set is the backup set just made, so will not be deleted.
+1011.538 (3) This backup set is the backup set just made, so will not be deleted.
+1011.538 (3) This backup set is the backup set just made, so will not be deleted.
+1011.538 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1011.540 (3) Examining (for files) backup set with nonce=801047ae8345, datestamp=1617776803 (Apr 07 2021 06:26:43)
+1011.540 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1011.540 (3) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1011.547 (3) Resume backup (f682cf54aebf, 3): finish run
+1011.554 (3) [Lock option (updraft_lock_f682cf54aebf, wp_options) released] info
+1011.559 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1011.566 (3) The backup has not finished; a resumption is scheduled
+2731.056 (4) Opened log file at time: Thu, 08 Apr 2021 06:21:21 +0000 on http://bush-safe.ga
+2731.060 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.50 WP: 5.7 PHP: 7.4.9 (apache2handler, Linux bush-safe-vm 4.9.0-13-amd64 #1 SMP Debian 4.9.228-1 (2020-07-05) x86_64) MySQL: 5.7.31 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.3M | 2M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: N
+2731.064 (4) Free space on disk containing Updraft's temporary directory: 5731.4 MB
+2731.067 (4) Requesting backup semaphore lock (f682cf54aebf)
+2731.074 (4) [Lock (updraft_lock_f682cf54aebf, wp_options) acquired] info
+2731.080 (4) Backup run: resumption=4, nonce=f682cf54aebf, file_nonce=f682cf54aebf begun at=1617860150 (2731s ago), job type=backup
+2731.083 (4) Long time past since expected resumption time: approx expected=1617861461.6, now=1617862881.2, diff=1419.6
+2731.088 (4) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+2731.095 (4) Scheduling a resumption (5) after 300 seconds (1617863181) in case this run gets aborted
+2731.103 (4) Checking if we have a zip executable available
+2731.106 (4) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+2731.108 (4) Creation of backups of directories: already finished
+2731.111 (4) Saving backup status to database (elements: 8)
+2731.119 (4) Database dump (WordPress DB): Creation was completed already
+2731.122 (4) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+2731.133 (4) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2731.136 (4) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2731.139 (4) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2731.142 (4) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-others.zip: others: This file has not yet been successfully uploaded: will queue
+2731.144 (4) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db.gz: db: This file has not yet been successfully uploaded: will queue
+2731.147 (4) Saving backup history. Total backup size: 103.6 MB
+2731.152 (4) Requesting upload of the files that have not yet been successfully uploaded (5)
+2731.159 (4) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+2731.163 (4) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-63a9f291e92eb82b7dbab2a149498438)
+2731.166 (4) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+2731.168 (4) An error condition has occurred for the first time during this job
+2731.175 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2731.179 (4) Number of backup sets in history: 2; groups (db): 1
+2731.183 (4) Examining (for databases) backup set with group_id=0, nonce=f682cf54aebf, datestamp=1617860150 (Apr 08 2021 05:35:50)
+2731.186 (4) This backup set is the backup set just made, so will not be deleted.
+2731.186 (4) Examining (for databases) backup set with group_id=0, nonce=801047ae8345, datestamp=1617776803 (Apr 07 2021 06:26:43)
+2731.186 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2731.187 (4) Number of backup sets in history: 2; groups (files): 1
+2731.190 (4) Examining (for files) backup set with nonce=f682cf54aebf, datestamp=1617860150 (Apr 08 2021 05:35:50)
+2731.190 (4) This backup set is the backup set just made, so will not be deleted.
+2731.191 (4) This backup set is the backup set just made, so will not be deleted.
+2731.192 (4) This backup set is the backup set just made, so will not be deleted.
+2731.192 (4) This backup set is the backup set just made, so will not be deleted.
+2731.192 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2731.195 (4) Examining (for files) backup set with nonce=801047ae8345, datestamp=1617776803 (Apr 07 2021 06:26:43)
+2731.195 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2731.195 (4) Retain: saving new backup history (sets now: 2) and finishing retain operation
+2731.202 (4) Resume backup (f682cf54aebf, 4): finish run
+2731.207 (4) [Lock option (updraft_lock_f682cf54aebf, wp_options) released] info
+2731.211 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2731.218 (4) The backup has not finished; a resumption is scheduled
+3578.824 (5) Opened log file at time: Thu, 08 Apr 2021 06:35:28 +0000 on http://bush-safe.ga
+3578.828 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.50 WP: 5.7 PHP: 7.4.9 (apache2handler, Linux bush-safe-vm 4.9.0-13-amd64 #1 SMP Debian 4.9.228-1 (2020-07-05) x86_64) MySQL: 5.7.31 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.3M | 8M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: N
+3578.831 (5) Free space on disk containing Updraft's temporary directory: 5732.9 MB
+3578.835 (5) Requesting backup semaphore lock (f682cf54aebf)
+3578.840 (5) [Lock (updraft_lock_f682cf54aebf, wp_options) acquired] info
+3578.847 (5) Backup run: resumption=5, nonce=f682cf54aebf, file_nonce=f682cf54aebf begun at=1617860150 (3579s ago), job type=backup
+3578.852 (5) Scheduling a resumption (6) after 300 seconds (1617864029) in case this run gets aborted
+3578.883 (5) Checking if we have a zip executable available
+3578.887 (5) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+3578.891 (5) Creation of backups of directories: already finished
+3578.894 (5) Saving backup status to database (elements: 8)
+3578.910 (5) Database dump (WordPress DB): Creation was completed already
+3578.914 (5) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+3578.925 (5) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+3578.929 (5) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+3578.933 (5) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+3578.936 (5) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-others.zip: others: This file has not yet been successfully uploaded: will queue
+3578.939 (5) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db.gz: db: This file has not yet been successfully uploaded: will queue
+3578.941 (5) Saving backup history. Total backup size: 103.6 MB
+3578.946 (5) Requesting upload of the files that have not yet been successfully uploaded (5)
+3578.952 (5) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+3578.955 (5) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-63a9f291e92eb82b7dbab2a149498438)
+3578.956 (5) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+3578.958 (5) An error condition has occurred for the first time during this job
+3578.963 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+3578.967 (5) Number of backup sets in history: 2; groups (db): 1
+3578.968 (5) Examining (for databases) backup set with group_id=0, nonce=f682cf54aebf, datestamp=1617860150 (Apr 08 2021 05:35:50)
+3578.971 (5) This backup set is the backup set just made, so will not be deleted.
+3578.971 (5) Examining (for databases) backup set with group_id=0, nonce=801047ae8345, datestamp=1617776803 (Apr 07 2021 06:26:43)
+3578.971 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3578.974 (5) Number of backup sets in history: 2; groups (files): 1
+3578.975 (5) Examining (for files) backup set with nonce=f682cf54aebf, datestamp=1617860150 (Apr 08 2021 05:35:50)
+3578.975 (5) This backup set is the backup set just made, so will not be deleted.
+3578.978 (5) This backup set is the backup set just made, so will not be deleted.
+3578.978 (5) This backup set is the backup set just made, so will not be deleted.
+3578.978 (5) This backup set is the backup set just made, so will not be deleted.
+3578.978 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3578.980 (5) Examining (for files) backup set with nonce=801047ae8345, datestamp=1617776803 (Apr 07 2021 06:26:43)
+3578.980 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3578.980 (5) Retain: saving new backup history (sets now: 2) and finishing retain operation
+3578.986 (5) Resume backup (f682cf54aebf, 5): finish run
+3578.991 (5) [Lock option (updraft_lock_f682cf54aebf, wp_options) released] info
+3578.995 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+3579.000 (5) The backup has not finished; a resumption is scheduled
+3921.451 (6) Opened log file at time: Thu, 08 Apr 2021 06:41:11 +0000 on http://bush-safe.ga
+3921.454 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.50 WP: 5.7 PHP: 7.4.9 (apache2handler, Linux bush-safe-vm 4.9.0-13-amd64 #1 SMP Debian 4.9.228-1 (2020-07-05) x86_64) MySQL: 5.7.31 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.3M | 8M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: N
+3921.459 (6) Free space on disk containing Updraft's temporary directory: 5732.9 MB
+3921.463 (6) Requesting backup semaphore lock (f682cf54aebf)
+3921.471 (6) [Lock (updraft_lock_f682cf54aebf, wp_options) acquired] info
+3921.478 (6) Backup run: resumption=6, nonce=f682cf54aebf, file_nonce=f682cf54aebf begun at=1617860150 (3921s ago), job type=backup
+3921.484 (6) Scheduling a resumption (7) after 300 seconds (1617864371) in case this run gets aborted
+3921.488 (6) Checking if we have a zip executable available
+3921.492 (6) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+3921.494 (6) Creation of backups of directories: already finished
+3921.495 (6) Saving backup status to database (elements: 8)
+3921.503 (6) Database dump (WordPress DB): Creation was completed already
+3921.507 (6) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+3921.517 (6) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+3921.520 (6) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+3921.523 (6) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+3921.526 (6) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-others.zip: others: This file has not yet been successfully uploaded: will queue
+3921.528 (6) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db.gz: db: This file has not yet been successfully uploaded: will queue
+3921.531 (6) Saving backup history. Total backup size: 103.6 MB
+3921.538 (6) Requesting upload of the files that have not yet been successfully uploaded (5)
+3921.544 (6) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+3921.547 (6) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-63a9f291e92eb82b7dbab2a149498438)
+3921.549 (6) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+3921.550 (6) An error condition has occurred for the first time during this job
+3921.556 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+3921.559 (6) Number of backup sets in history: 2; groups (db): 1
+3921.563 (6) Examining (for databases) backup set with group_id=0, nonce=f682cf54aebf, datestamp=1617860150 (Apr 08 2021 05:35:50)
+3921.565 (6) This backup set is the backup set just made, so will not be deleted.
+3921.565 (6) Examining (for databases) backup set with group_id=0, nonce=801047ae8345, datestamp=1617776803 (Apr 07 2021 06:26:43)
+3921.565 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+3921.567 (6) Number of backup sets in history: 2; groups (files): 1
+3921.569 (6) Examining (for files) backup set with nonce=f682cf54aebf, datestamp=1617860150 (Apr 08 2021 05:35:50)
+3921.569 (6) This backup set is the backup set just made, so will not be deleted.
+3921.571 (6) This backup set is the backup set just made, so will not be deleted.
+3921.571 (6) This backup set is the backup set just made, so will not be deleted.
+3921.571 (6) This backup set is the backup set just made, so will not be deleted.
+3921.571 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+3921.574 (6) Examining (for files) backup set with nonce=801047ae8345, datestamp=1617776803 (Apr 07 2021 06:26:43)
+3921.574 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+3921.574 (6) Retain: saving new backup history (sets now: 2) and finishing retain operation
+3921.579 (6) Resume backup (f682cf54aebf, 6): finish run
+3921.583 (6) [Lock option (updraft_lock_f682cf54aebf, wp_options) released] info
+3921.588 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+3921.595 (6) The backup has not finished; a resumption is scheduled
+4222.393 (7) Opened log file at time: Thu, 08 Apr 2021 06:46:12 +0000 on http://bush-safe.ga
+4222.397 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.50 WP: 5.7 PHP: 7.4.9 (apache2handler, Linux bush-safe-vm 4.9.0-13-amd64 #1 SMP Debian 4.9.228-1 (2020-07-05) x86_64) MySQL: 5.7.31 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.3M | 4M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: N
+4222.401 (7) Free space on disk containing Updraft's temporary directory: 5732.9 MB
+4222.404 (7) Requesting backup semaphore lock (f682cf54aebf)
+4222.411 (7) [Lock (updraft_lock_f682cf54aebf, wp_options) acquired] info
+4222.416 (7) Backup run: resumption=7, nonce=f682cf54aebf, file_nonce=f682cf54aebf begun at=1617860150 (4222s ago), job type=backup
+4222.422 (7) Scheduling a resumption (8) after 300 seconds (1617864672) in case this run gets aborted
+4222.428 (7) Checking if we have a zip executable available
+4222.429 (7) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+4222.431 (7) Creation of backups of directories: already finished
+4222.434 (7) Saving backup status to database (elements: 8)
+4222.439 (7) Database dump (WordPress DB): Creation was completed already
+4222.443 (7) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+4222.455 (7) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+4222.458 (7) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+4222.460 (7) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+4222.463 (7) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-others.zip: others: This file has not yet been successfully uploaded: will queue
+4222.466 (7) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db.gz: db: This file has not yet been successfully uploaded: will queue
+4222.467 (7) Saving backup history. Total backup size: 103.6 MB
+4222.475 (7) Requesting upload of the files that have not yet been successfully uploaded (5)
+4222.480 (7) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+4222.484 (7) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-63a9f291e92eb82b7dbab2a149498438)
+4222.487 (7) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+4222.489 (7) An error condition has occurred for the first time during this job
+4222.492 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+4222.496 (7) Number of backup sets in history: 2; groups (db): 1
+4222.497 (7) Examining (for databases) backup set with group_id=0, nonce=f682cf54aebf, datestamp=1617860150 (Apr 08 2021 05:35:50)
+4222.499 (7) This backup set is the backup set just made, so will not be deleted.
+4222.499 (7) Examining (for databases) backup set with group_id=0, nonce=801047ae8345, datestamp=1617776803 (Apr 07 2021 06:26:43)
+4222.499 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4222.503 (7) Number of backup sets in history: 2; groups (files): 1
+4222.507 (7) Examining (for files) backup set with nonce=f682cf54aebf, datestamp=1617860150 (Apr 08 2021 05:35:50)
+4222.507 (7) This backup set is the backup set just made, so will not be deleted.
+4222.510 (7) This backup set is the backup set just made, so will not be deleted.
+4222.510 (7) This backup set is the backup set just made, so will not be deleted.
+4222.510 (7) This backup set is the backup set just made, so will not be deleted.
+4222.510 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4222.512 (7) Examining (for files) backup set with nonce=801047ae8345, datestamp=1617776803 (Apr 07 2021 06:26:43)
+4222.512 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4222.512 (7) Retain: saving new backup history (sets now: 2) and finishing retain operation
+4222.519 (7) Resume backup (f682cf54aebf, 7): finish run
+4222.527 (7) [Lock option (updraft_lock_f682cf54aebf, wp_options) released] info
+4222.532 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+4222.538 (7) The backup has not finished; a resumption is scheduled
+4678.673 (8) Opened log file at time: Thu, 08 Apr 2021 06:53:48 +0000 on http://bush-safe.ga
+4678.677 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.50 WP: 5.7 PHP: 7.4.9 (apache2handler, Linux bush-safe-vm 4.9.0-13-amd64 #1 SMP Debian 4.9.228-1 (2020-07-05) x86_64) MySQL: 5.7.31 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.3M | 2M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: N
+4678.680 (8) Free space on disk containing Updraft's temporary directory: 5732.8 MB
+4678.683 (8) Requesting backup semaphore lock (f682cf54aebf)
+4678.688 (8) [Lock (updraft_lock_f682cf54aebf, wp_options) acquired] info
+4678.696 (8) Backup run: resumption=8, nonce=f682cf54aebf, file_nonce=f682cf54aebf begun at=1617860150 (4678s ago), job type=backup
+4678.703 (8) Scheduling a resumption (9) after 300 seconds (1617865128) in case this run gets aborted
+4678.708 (8) Checking if we have a zip executable available
+4678.712 (8) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+4678.715 (8) Creation of backups of directories: already finished
+4678.718 (8) Saving backup status to database (elements: 8)
+4678.723 (8) Database dump (WordPress DB): Creation was completed already
+4678.727 (8) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+4678.738 (8) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+4678.740 (8) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+4678.743 (8) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+4678.746 (8) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-others.zip: others: This file has not yet been successfully uploaded: will queue
+4678.747 (8) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db.gz: db: This file has not yet been successfully uploaded: will queue
+4678.751 (8) Saving backup history. Total backup size: 103.6 MB
+4678.758 (8) Requesting upload of the files that have not yet been successfully uploaded (5)
+4678.763 (8) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+4678.767 (8) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-63a9f291e92eb82b7dbab2a149498438)
+4678.770 (8) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+4678.772 (8) An error condition has occurred for the first time during this job
+4678.781 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+4678.785 (8) Number of backup sets in history: 2; groups (db): 1
+4678.788 (8) Examining (for databases) backup set with group_id=0, nonce=f682cf54aebf, datestamp=1617860150 (Apr 08 2021 05:35:50)
+4678.791 (8) This backup set is the backup set just made, so will not be deleted.
+4678.791 (8) Examining (for databases) backup set with group_id=0, nonce=801047ae8345, datestamp=1617776803 (Apr 07 2021 06:26:43)
+4678.791 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+4678.794 (8) Number of backup sets in history: 2; groups (files): 1
+4678.796 (8) Examining (for files) backup set with nonce=f682cf54aebf, datestamp=1617860150 (Apr 08 2021 05:35:50)
+4678.796 (8) This backup set is the backup set just made, so will not be deleted.
+4678.799 (8) This backup set is the backup set just made, so will not be deleted.
+4678.799 (8) This backup set is the backup set just made, so will not be deleted.
+4678.799 (8) This backup set is the backup set just made, so will not be deleted.
+4678.799 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+4678.803 (8) Examining (for files) backup set with nonce=801047ae8345, datestamp=1617776803 (Apr 07 2021 06:26:43)
+4678.803 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+4678.803 (8) Retain: saving new backup history (sets now: 2) and finishing retain operation
+4678.810 (8) Resume backup (f682cf54aebf, 8): finish run
+4678.815 (8) [Lock option (updraft_lock_f682cf54aebf, wp_options) released] info
+4678.820 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+4678.827 (8) The backup has not finished; a resumption is scheduled
+5001.867 (9) Opened log file at time: Thu, 08 Apr 2021 06:59:12 +0000 on http://bush-safe.ga
+5001.871 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.50 WP: 5.7 PHP: 7.4.9 (apache2handler, Linux bush-safe-vm 4.9.0-13-amd64 #1 SMP Debian 4.9.228-1 (2020-07-05) x86_64) MySQL: 5.7.31 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.3M | 2M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: N
+5001.874 (9) Free space on disk containing Updraft's temporary directory: 5732.8 MB
+5001.878 (9) Requesting backup semaphore lock (f682cf54aebf)
+5001.882 (9) [Lock (updraft_lock_f682cf54aebf, wp_options) acquired] info
+5001.888 (9) Backup run: resumption=9, nonce=f682cf54aebf, file_nonce=f682cf54aebf begun at=1617860150 (5002s ago), job type=backup
+5001.895 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+5001.903 (9) Scheduling a resumption (10) after 300 seconds (1617865452); but the job will then be aborted unless something happens this time
+5001.911 (9) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+5001.915 (9) Creation of backups of directories: already finished
+5001.918 (9) Saving backup status to database (elements: 8)
+5001.927 (9) Database dump (WordPress DB): Creation was completed already
+5001.931 (9) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+5001.944 (9) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+5001.947 (9) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+5001.951 (9) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+5001.955 (9) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-others.zip: others: This file has not yet been successfully uploaded: will queue
+5001.958 (9) backup_2021-04-08-0535_Bush_Safe_f682cf54aebf-db.gz: db: This file has not yet been successfully uploaded: will queue
+5001.959 (9) Saving backup history. Total backup size: 103.6 MB
+5001.967 (9) Requesting upload of the files that have not yet been successfully uploaded (5)
+5001.975 (9) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+5001.979 (9) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-63a9f291e92eb82b7dbab2a149498438)
+5001.983 (9) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+5001.987 (9) An error condition has occurred for the first time during this job
+5001.995 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+5001.999 (9) Number of backup sets in history: 2; groups (db): 1
+5002.002 (9) Examining (for databases) backup set with group_id=0, nonce=f682cf54aebf, datestamp=1617860150 (Apr 08 2021 05:35:50)
+5002.006 (9) This backup set is the backup set just made, so will not be deleted.
+5002.006 (9) Examining (for databases) backup set with group_id=0, nonce=801047ae8345, datestamp=1617776803 (Apr 07 2021 06:26:43)
+5002.006 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5002.007 (9) Number of backup sets in history: 2; groups (files): 1
+5002.011 (9) Examining (for files) backup set with nonce=f682cf54aebf, datestamp=1617860150 (Apr 08 2021 05:35:50)
+5002.011 (9) This backup set is the backup set just made, so will not be deleted.
+5002.014 (9) This backup set is the backup set just made, so will not be deleted.
+5002.014 (9) This backup set is the backup set just made, so will not be deleted.
+5002.014 (9) This backup set is the backup set just made, so will not be deleted.
+5002.014 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5002.016 (9) Examining (for files) backup set with nonce=801047ae8345, datestamp=1617776803 (Apr 07 2021 06:26:43)
+5002.016 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5002.016 (9) Retain: saving new backup history (sets now: 2) and finishing retain operation
+5002.023 (9) Resume backup (f682cf54aebf, 9): finish run
+5002.028 (9) [Lock option (updraft_lock_f682cf54aebf, wp_options) released] info
+5002.035 (9) The resumption is being cancelled, as it was only scheduled to enable error reporting, which can be performed now
+5002.040 (9) Fetching RSS news feed
+5003.056 (9) Fetched RSS news feed; result is a: SimplePie
+5003.073 (9) Sending email ('Files and database (Full backup)') report (attachments: 1, size: 78.5 KB) to: surum...
+5003.096 (9) The backup attempt has finished, apparently unsuccessfully
