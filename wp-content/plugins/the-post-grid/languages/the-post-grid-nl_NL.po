@@ -1,0 +1,278 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: The Post Grid\n"
+"POT-Creation-Date: 2017-01-05 18:06+0600\n"
+"PO-Revision-Date: 2017-01-05 18:07+0600\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: the-post-grid.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: nl_NL\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: lib/classes/rtTPGAjaxResponse.php:27
+msgid "Settings successfully updated"
+msgstr ""
+
+#: lib/classes/rtTPGAjaxResponse.php:32
+msgid "Security Error !!"
+msgstr ""
+
+#: lib/classes/rtTPGAjaxResponse.php:58
+msgid "<div class=\"field-holder\">No Taxonomy found</div>"
+msgstr ""
+
+#: lib/classes/rtTPGAjaxResponse.php:62 lib/classes/rtTPGAjaxResponse.php:81
+#: lib/classes/rtTPGAjaxResponse.php:120
+msgid "Security error"
+msgstr ""
+
+#: lib/classes/rtTPGAjaxResponse.php:134
+msgid "Select Short code"
+msgstr ""
+
+#: lib/classes/rtTPGAjaxResponse.php:136
+msgid "Default"
+msgstr ""
+
+#: lib/classes/rtTPGAjaxResponse.php:145
+msgid "No shortCode found."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: lib/classes/rtTPGInit.php:21 lib/classes/rtTPGInit.php:22
+msgid "The Post Grid"
+msgstr ""
+
+#: lib/classes/rtTPGInit.php:23
+msgid "Add New Grid"
+msgstr ""
+
+#: lib/classes/rtTPGInit.php:24
+msgid "All Grids"
+msgstr ""
+
+#: lib/classes/rtTPGInit.php:25
+msgid "Add New Post Grid"
+msgstr ""
+
+#: lib/classes/rtTPGInit.php:26
+msgid "Edit Post Grid"
+msgstr ""
+
+#: lib/classes/rtTPGInit.php:27
+msgid "New Post Grid"
+msgstr ""
+
+#: lib/classes/rtTPGInit.php:28
+msgid "View Post Grid"
+msgstr ""
+
+#: lib/classes/rtTPGInit.php:29
+msgid "Search Post Grids"
+msgstr ""
+
+#: lib/classes/rtTPGInit.php:30
+msgid "No Post Grids found"
+msgstr ""
+
+#: lib/classes/rtTPGInit.php:31
+msgid "No Post Grids found in Trash"
+msgstr ""
+
+#: lib/classes/rtTPGInit.php:143
+msgid "Settings"
+msgstr ""
+
+#: lib/classes/rtTPGInit.php:156 lib/classes/rtTPGInit.php:159
+msgid "Field group updated."
+msgstr ""
+
+#: lib/classes/rtTPGInit.php:157
+msgid "Custom field updated."
+msgstr ""
+
+#: lib/classes/rtTPGInit.php:158
+msgid "Custom field deleted."
+msgstr ""
+
+#: lib/classes/rtTPGInit.php:161
+#, php-format
+msgid "Field group restored to revision from %s"
+msgstr ""
+
+#: lib/classes/rtTPGInit.php:162
+msgid "Field group published."
+msgstr ""
+
+#: lib/classes/rtTPGInit.php:163
+msgid "Field group saved."
+msgstr ""
+
+#: lib/classes/rtTPGInit.php:164
+msgid "Field group submitted."
+msgstr ""
+
+#: lib/classes/rtTPGInit.php:165
+msgid "Field group scheduled for."
+msgstr ""
+
+#: lib/classes/rtTPGInit.php:166
+msgid "Field group draft updated."
+msgstr ""
+
+#: lib/classes/rtTPGMeta.php:26
+msgid "Shortcode"
+msgstr ""
+
+#: lib/classes/rtTPGMeta.php:76
+msgid "Short Code Generator"
+msgstr ""
+
+#: lib/classes/rtTPGMeta.php:108
+msgid "Post Source"
+msgstr ""
+
+#: lib/classes/rtTPGMeta.php:109
+msgid "Layout Settings"
+msgstr ""
+
+#: lib/classes/rtTPGMeta.php:110
+msgid "Field Selection"
+msgstr ""
+
+#: lib/classes/rtTPGMeta.php:111
+msgid "Style"
+msgstr ""
+
+#: lib/classes/rtTPGOptions.php:73
+msgid "List of post IDs to show (comma-separated values, for example: 1,2,3)"
+msgstr ""
+
+#: lib/classes/rtTPGOptions.php:80
+msgid "List of post IDs to hide (comma-separated values, for example: 1,2,3)"
+msgstr ""
+
+#: lib/classes/rtTPGOptions.php:87
+msgid "The number of posts to show. Set empty to show all found posts."
+msgstr ""
+
+#: lib/classes/rtTPGOptions.php:178
+msgid ""
+"If value of Limit setting is not blank (empty), this value should be smaller "
+"than Limit value."
+msgstr ""
+
+#: lib/classes/rtTPGOptions.php:202
+msgid ""
+"Excerpt limit only integer number is allowed, Leave it blank for full "
+"excerpt. Note: This will remove all html tag"
+msgstr ""
+
+#: lib/classes/rtTPGOptions.php:265
+msgid "Feature Image"
+msgstr ""
+
+#: lib/classes/rtTPGOptions.php:266
+msgid "First Image from content"
+msgstr ""
+
+#: lib/classes/rtTPGOptions.php:289
+msgid "Title"
+msgstr ""
+
+#: lib/classes/rtTPGOptions.php:290
+msgid "Excerpt"
+msgstr ""
+
+#: lib/classes/rtTPGOptions.php:291 lib/views/layouts/layout1.php:53
+msgid "Read More"
+msgstr "Lees verder"
+
+#: lib/classes/rtTPGOptions.php:292
+msgid "Post Date"
+msgstr ""
+
+#: lib/classes/rtTPGOptions.php:293
+msgid "Author"
+msgstr ""
+
+#: lib/classes/rtTPGOptions.php:294
+msgid "Categories"
+msgstr ""
+
+#: lib/classes/rtTPGOptions.php:295
+msgid "Tags"
+msgstr ""
+
+#: lib/classes/rtTPGOptions.php:296
+msgid "Comment Count"
+msgstr ""
+
+#: lib/classes/rtTPGShortCode.php:242
+msgid "Show all"
+msgstr ""
+
+#: lib/classes/rtTPGShortCode.php:305
+msgid "No post found"
+msgstr ""
+
+#: lib/views/layouts/layout2.php:48 lib/views/layouts/layout3.php:44
+msgid "Read More .."
+msgstr "Lees verder …"
+
+#: lib/views/settings/settings.php:8
+msgid "The Post Grid Settings"
+msgstr ""
+
+#: lib/views/settings/settings.php:9
+msgid "General settings"
+msgstr ""
+
+#: lib/views/settings/settings.php:10 lib/views/settings/settings.php:56
+msgid "Documentation"
+msgstr ""
+
+#: lib/views/settings/settings.php:52
+msgid "Short Code"
+msgstr ""
+
+#: lib/views/settings/settings.php:54
+msgid "id = short code id (1,2,3,4)"
+msgstr ""
+
+#: lib/views/settings/settings.php:55
+msgid "title = Shot code title (Not recommended)"
+msgstr ""
+
+#: lib/views/settings/settings.php:56
+msgid "Demo"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://demo.radiustheme.com/wordpress/plugins/the-post-grid/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Fast & Easy way to display WordPress post in Grid, List & Isotope view "
+"( filter by category, tag, author..)  without a single line of coding."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "RadiusTheme"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://radiustheme.com/"
+msgstr ""
