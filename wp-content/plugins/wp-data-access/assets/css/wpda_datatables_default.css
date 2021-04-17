@@ -1,0 +1,13 @@
+table.dataTable thead tr th,
+table.dataTable thead tr td,
+table.dataTable tfoot tr th {
+    white-space: nowrap;
+}
+
+.wpda_more_container {
+    text-align: center;
+}
+
+.wpda_more_button {
+    width: 100%;
+}

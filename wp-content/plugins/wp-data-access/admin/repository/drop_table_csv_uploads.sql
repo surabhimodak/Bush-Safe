@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS {wp_prefix}wpda_csv_uploads{wpda_postfix};

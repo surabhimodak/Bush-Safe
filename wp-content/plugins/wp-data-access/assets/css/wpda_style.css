@@ -1,0 +1,523 @@
+/* BEGIN SETTINGS */
+
+.wpda-table-settings {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.wpda-table-settings th, .wpda-table-settings td {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.wpda-table-settings th {
+    width: 200px;
+    vertical-align: top;
+}
+
+.wpda-table-settings tr {
+    border-bottom: 1px solid #ccc;
+}
+
+.wpda-table-settings tr:nth-child(even) {
+    background: #fff;
+}
+
+.wpda-table-settings-button {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.wpda_list_indent {
+    padding-left: 20px;
+}
+
+.wpda_list {
+    list-style-type: square;
+    text-decoration: none !important;
+}
+
+.wpda_upload {
+    background: #fff;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+/* END SETTINGS */
+
+/* BEGIN SIMPLE FORM */
+
+.wpda_simple_form_border {
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 100%;
+    padding: 0;
+}
+
+.wpda_simple_table {
+    padding: 0;
+    width: 100%;
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.wpda_simple_table td.label {
+    display: table-cell;
+    vertical-align: middle;
+    width: 15%;
+    text-align: right;
+}
+
+.wpda_simple_table td.data {
+    display: table-cell;
+    vertical-align: middle;
+    width: 70%;
+    padding-bottom: 5px !important;
+    padding-top: 5px !important;
+}
+
+.wpda_simple_table td.data input, .wpda_simple_table td.data select, .wpda_simple_table td.data textarea {
+    width: 100%;
+    max-width: 100%;
+}
+
+.wpda_simple_table td.data textarea {
+    height: 150px;
+}
+
+.wpda_simple_table td.data input[type='checkbox'] {
+    width: 16px;
+    height: 16px;
+}
+
+.wpda_simple_table td.icon {
+    display: table-cell;
+    vertical-align: middle;
+    width: 15%;
+    text-align: left;
+    padding-top: 1px;
+}
+
+table.wpda_simple_table > tbody > :nth-child(2n+1) td {
+    background-color: #f9f9f9;
+    display: table-cell;
+}
+
+table.wpda_simple_table tbody td.label {
+    padding-right: 5px;
+}
+
+table.wpda_simple_table tbody td.icon {
+    padding-left: 5px;
+}
+
+.wpda_data_type {
+    font-size: 80%;
+    background-color: white;
+    border: 1px solid gray;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.wpda_data_type_icon {
+    vertical-align: text-bottom;
+}
+
+input[type="text"].wpda_input_error {
+    background-color: red;
+}
+
+.wpda_indent {
+    margin-left: 40px;
+}
+
+/* END SIMPLE FORM */
+
+/* BEGIN USER MENU FORM */
+
+.wpda_user_menu_input {
+    width: 400px;
+}
+
+/* END USER MENU FORM */
+
+/* BEGIN DESIGN FORM */
+
+.wpda_design_table {
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    padding: 0 !important;
+}
+
+.wpda-table-structure {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.wpda-table-structure tfoot td {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.wpda-table-structure tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.wpda-table-structure tbody tr:nth-child(odd) {
+    background: #fff;
+}
+
+.wpda-table-structure th, .wpda-table-structure td {
+    text-align: left;
+    /*line-height: 1.5em;*/
+    /*border-spacing: 2px !important;*/
+}
+
+.wpda-table-structure-top {
+    vertical-align: top;
+}
+
+.wpda-table-structure tbody td input, .wpda-table-structure tbody td select {
+    width: 100%;
+    max-width: 100%;
+}
+
+.wpda-table-structure tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.wpda-table-structure label {
+    vertical-align: text-bottom;
+    font-weight: bold;
+}
+
+.wpda-table-structure th.wpda-table-structure-first-column, .wpda-table-structure td.wpda-table-structure-first-column {
+    text-align: right;
+    white-space: nowrap;
+    width: 60px;
+    padding-left: 10px !important;
+}
+
+.wpda-table-structure th.wpda-table-structure-first-column-left, .wpda-table-structure td.wpda-table-structure-first-column-left {
+    text-align: left;
+    white-space: nowrap;
+    width: 60px;
+    padding-left: 10px !important;
+}
+
+.wpda-table-structure th.wpda-table-structure-first-column-move, .wpda-table-structure td.wpda-table-structure-first-column-move {
+    width: 20px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.wpda-table-structure th.wpda-table-structure-last-column, .wpda-table-structure td.wpda-table-structure-last-column {
+    padding-right: 10px !important;
+}
+
+.wpda_reverse_engineering {
+    background-color: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    padding: 10px;
+}
+
+.wpda_reverse_engineering label {
+    font-weight: bold;
+}
+
+.wpda-table-structure tbody tr.wpda_column_inserted {
+    background-color: lightgreen;
+}
+
+.wpda-table-structure tbody tr.wpda_column_updated {
+    background-color: orange;
+}
+
+.wpda-table-structure tbody tr.wpda_column_deleted {
+    background-color: red;
+    display: none;
+}
+
+/* END DESIGN FORM */
+
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+.manage-column.column-icons {
+    width: 20px;
+}
+
+/* BEGIN DATABASE TABLE STRUCTURE */
+
+.wpda-structure-table {
+    width: 100%;
+}
+
+.wpda-structure-table th, .wpda-structure-table td {
+    font-size: 90%;
+}
+
+.wpda-structure-table-tab {
+    font-size: 90%;
+}
+
+.column-table_rows, .column-engine {
+    width: 90px !important;
+}
+
+.column-size {
+    width: 110px !important;
+}
+
+.column-auto_increment {
+    width: 130px !important;
+}
+
+.column-icons {
+    width: 50px !important;
+    white-space: nowrap;
+    text-align: right;
+}
+
+/* END DATABASE TABLE STRUCTURE */
+
+/* BEGIN OVERWRITE LINK COLOR IN UI-WIDGET/TABS */
+
+span.drop-index {
+    color: #0073aa;
+}
+
+span.drop-index:active, span.drop-index:hover {
+    color: #00a0d2;
+}
+
+/* END OVERWRITE LINK COLOR IN UI-WIDGET/TABS */
+
+/* BEGIN DOCUMENTATION */
+
+.doc_title {
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.doc_list {
+    list-style-type: square;
+    margin-left: 40px;
+}
+
+.doc_margin {
+    padding-left: 40px;
+}
+
+/* END DOCUMENTATION */
+
+/* BEGIN TABLE SETTINGS */
+
+.wpda_action_font {
+    font-size: 90% !important;
+}
+
+.wpda_settings_icon {
+    padding-top: 1px;
+    padding-right: 2px;
+}
+
+.wpda_settings_label {
+    padding-left: 2px;
+}
+
+/* END TABLE SETTINGS */
+
+.label_disabled {
+    color: grey;
+    pointer-events: none;
+}
+
+.nobr {
+    white-space:nowrap;
+}
+
+.row_hide {
+    display: none;
+}
+
+.hide_item {
+    display: none;
+}
+
+.grabbable {
+    cursor: move;
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+.grabbable:active {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
+
+.database_item_label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+
+.remote_database_block_test_content {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-right: 20px;
+    background-color: #eee;
+}
+
+/* BEGIN STYLING AUDIO CONTROLS IN LIST TABLE */
+table.wp-list-table tbody tr td div.mejs-audio {
+    width: 40px !important;;
+    min-width: 40px !important;;
+    max-width: 40px !important;
+}
+table.wp-list-table tbody tr td div.mejs-audio div.mejs-mediaelement,
+table.wp-list-table tbody tr td div.mejs-audio div.mejs-layers,
+table.wp-list-table tbody tr td div.mejs-audio div.mejs-horizontal-volume-total,
+table.wp-list-table tbody tr td div.mejs-audio div.mejs-time-rail,
+table.wp-list-table tbody tr td div.mejs-audio div.mejs-volume-button {
+    display: none;
+}
+table.wp-list-table tbody tr td div.mejs-audio .mejs-time {
+    color: transparent;
+}
+table.wp-list-table tbody tr td div.mejs-audio .mejs-controls {
+    padding: 1px 4px;
+}
+/* END STYLING AUDIO CONTROLS IN LIST TABLE */
+
+/* BEGIN STYLING VIDEO CONTROLS IN LIST TABLE */
+table.wp-list-table tbody tr td div.mejs-video div.mejs-controls {
+    display: none;
+}
+/* END STYLING VIDEO CONTROLS IN LIST TABLE */
+
+/* BEGIN STYLING ATTACHMENT ICON IN LIST TABLE */
+.wpda_attachment_icon {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    padding: 5px;
+}
+/* END STYLING ATTACHMENT ICON IN LIST TABLE */
+
+fieldset.wpda_fieldset {
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    padding: 10px;
+}
+fieldset.wpda_fieldset legend {
+    font-weight: bold;
+}
+.no-close .ui-dialog-titlebar-close {
+    display: none;
+}
+.pointer {
+    cursor: pointer;
+}
+.notifyjs-corner {
+    margin-top: 42px !important;
+}
+.wpda_icon_on_button {
+    font-size: 16px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    vertical-align: sub !important;
+}
+.wpda_text_uppercase {
+    text-transform: uppercase;
+}
+.wpda_text_lowercase {
+    text-transform: lowercase;
+}
+.wpda_text_capitalize {
+    text-transform: capitalize;
+}
+.ui-tooltip {
+    white-space: pre-line;
+}
+.wpda-autocomplete {
+    max-height: 200px;
+    overflow-y: auto;
+}
+.wpda-table-backup {
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+.wpda-table-backup th,
+.wpda-table-backup td {
+    padding: 4px;
+    white-space: nowrap
+}
+.wpda-table-backup td span {
+    padding-left: 10px;
+}
+th.wpda-repository-column {
+    vertical-align: bottom;
+    width: 30px;
+}
+th.wpda-repository-column span {
+    writing-mode: tb-rl;
+    width: 25px;
+}
+td.wpda-repository-column {
+    width: 30px;
+    text-align: center;
+}
+.wpda-restore-repository-backup {
+    background: white;
+    width: max-content;
+}
+table.wpda-restore-repository-backup {
+    border-collapse: collapse;
+}
+.wpda-restore-repository-backup th,
+.wpda-restore-repository-backup td {
+   padding: 4px;
+}
+.wpda-restore-repository-backup th {
+    text-align: center;
+}
+.wpda-restore-repository-backup tr {
+    border-bottom: none;
+}
+.wpda-restore-repository-backup tr:hover {
+    background-color: lightgrey;
+}
+.wpda-restore-repository-backup-selected {
+    background-color: rgb(0, 115, 170) !important;
+    font-weight: bold;
+}
+.wpda-half-spacer {
+    height: 5px;
+}
+.wpda-spacer {
+    height: 10px;
+}
+.wpda-repository-restore {
+    border: 1px solid #ccd0d4;
+    border-collapse: collapse;
+}
+.wpda-repository-restore thead {
+    background-color: #ccc;
+}
+.wpda-repository-restore th,
+.wpda-repository-restore td {
+    padding: 2px 5px;
+    text-align: left;
+}

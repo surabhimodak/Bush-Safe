@@ -1,0 +1,1 @@
+ALTER TABLE {wp_prefix}wpda_table_design MODIFY COLUMN wpda_last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP;

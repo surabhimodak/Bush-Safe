@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdoc>
+	<title>WP Data Access</title>
+	<parser>
+		<target>docs/logs</target>
+		<markers>
+            <item>TODO</item>
+        </markers>
+		<extensions>
+            <extension>php</extension>
+        </extensions>
+	</parser>
+	<transformer>
+		<target>docs</target>
+	</transformer>
+	<transformations>
+        <template name="responsive" />
+    </transformations>
+	<files>
+		<directory>.</directory>
+		<ignore>vendor/*</ignore>
+		<ignore>WPDataAccess/Wordpress_Original/*</ignore>
+	</files>
+</phpdoc>
