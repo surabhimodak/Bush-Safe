@@ -1,0 +1,345 @@
+2875.916 (1) Opened log file at time: Fri, 16 Apr 2021 07:09:13 +0000 on https://bush-safe.ga
+2875.920 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.50 WP: 5.7 PHP: 7.4.9 (apache2handler, Linux bush-safe-vm 4.9.0-13-amd64 #1 SMP Debian 4.9.228-1 (2020-07-05) x86_64) MySQL: 5.7.31 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.4M | 8M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: N
+2875.922 (1) Free space on disk containing Updraft's temporary directory: 5074.3 MB
+2875.924 (1) Requesting backup semaphore lock (d3859da5db2d)
+2875.928 (1) Backup run: resumption=1, nonce=d3859da5db2d, file_nonce=d3859da5db2d begun at=1618554077 (2876s ago), job type=backup, previous check-in=41s
+2875.932 (1) Long time past since expected resumption time: approx expected=1618554418.7, now=1618556953.6, diff=2534.8
+2875.938 (1) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+2875.943 (1) Scheduling a resumption (2) after 300 seconds (1618557253) in case this run gets aborted
+2875.948 (1) Checking if we have a zip executable available
+2875.951 (1) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+2875.954 (1) Creation of backups of directories: already finished
+2875.956 (1) Saving backup status to database (elements: 8)
+2875.962 (1) Database dump (WordPress DB): Creation was completed already
+2875.964 (1) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+2875.971 (1) backup_2021-04-16-0621_Bush_Safe_baaea2a2bcea-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2875.974 (1) backup_2021-04-16-0621_Bush_Safe_baaea2a2bcea-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2875.975 (1) backup_2021-04-16-0621_Bush_Safe_baaea2a2bcea-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2875.978 (1) backup_2021-04-16-0621_Bush_Safe_baaea2a2bcea-others.zip: others: This file has not yet been successfully uploaded: will queue
+2875.979 (1) backup_2021-04-16-0621_Bush_Safe_d3859da5db2d-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+2875.982 (1) Saving backup history. Total backup size: Unknown
+2875.987 (1) Requesting upload of the files that have not yet been successfully uploaded (4)
+2875.992 (1) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+2875.995 (1) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-63a9f291e92eb82b7dbab2a149498438)
+2875.998 (1) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+2876.003 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2876.004 (1) Number of backup sets in history: 2; groups (db): 1
+2876.008 (1) Examining (for databases) backup set with group_id=0, nonce=d3859da5db2d, datestamp=1618554077 (Apr 16 2021 06:21:17)
+2876.008 (1) This backup set is the backup set just made, so will not be deleted.
+2876.008 (1) Examining (for databases) backup set with group_id=0, nonce=cf41cbbad5db, datestamp=1618465768 (Apr 15 2021 05:49:28)
+2876.008 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+2876.011 (1) Number of backup sets in history: 2; groups (files): 1
+2876.012 (1) Examining (for files) backup set with nonce=d3859da5db2d, datestamp=1618554077 (Apr 16 2021 06:21:17)
+2876.012 (1) This backup set is the backup set just made, so will not be deleted.
+2876.016 (1) This backup set is the backup set just made, so will not be deleted.
+2876.016 (1) This backup set is the backup set just made, so will not be deleted.
+2876.016 (1) This backup set is the backup set just made, so will not be deleted.
+2876.016 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+2876.019 (1) Examining (for files) backup set with nonce=cf41cbbad5db, datestamp=1618465768 (Apr 15 2021 05:49:28)
+2876.019 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+2876.019 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+2876.023 (1) Resume backup (d3859da5db2d, 1): finish run
+2876.028 (1) [Lock option (updraft_lock_baaea2a2bcea, wp_options) released] info
+2876.031 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2876.036 (1) The backup has not finished; a resumption is scheduled
+3583.763 (3) Opened log file at time: Fri, 16 Apr 2021 07:21:01 +0000 on https://bush-safe.ga
+3583.766 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.50 WP: 5.7 PHP: 7.4.9 (apache2handler, Linux bush-safe-vm 4.9.0-13-amd64 #1 SMP Debian 4.9.228-1 (2020-07-05) x86_64) MySQL: 5.7.31 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.4M | 2M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: N
+3583.767 (3) Free space on disk containing Updraft's temporary directory: 4815.8 MB
+3583.770 (3) Requesting backup semaphore lock (d3859da5db2d)
+3583.774 (3) Backup run: resumption=3, nonce=d3859da5db2d, file_nonce=d3859da5db2d begun at=1618554077 (3584s ago), job type=backup
+3583.778 (3) Scheduling a resumption (4) after 300 seconds (1618557961) in case this run gets aborted
+3583.782 (3) Checking if we have a zip executable available
+3583.784 (3) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+3583.786 (3) Creation of backups of directories: already finished
+3583.788 (3) Saving backup status to database (elements: 8)
+3583.794 (3) Database dump (WordPress DB): Creation was completed already
+3583.796 (3) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+3583.803 (3) backup_2021-04-16-0621_Bush_Safe_baaea2a2bcea-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+3583.806 (3) backup_2021-04-16-0621_Bush_Safe_baaea2a2bcea-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+3583.808 (3) backup_2021-04-16-0621_Bush_Safe_baaea2a2bcea-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+3583.810 (3) backup_2021-04-16-0621_Bush_Safe_baaea2a2bcea-others.zip: others: This file has not yet been successfully uploaded: will queue
+3583.812 (3) backup_2021-04-16-0621_Bush_Safe_d3859da5db2d-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+3583.815 (3) Saving backup history. Total backup size: Unknown
+3583.820 (3) Requesting upload of the files that have not yet been successfully uploaded (4)
+3583.824 (3) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+3583.826 (3) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-63a9f291e92eb82b7dbab2a149498438)
+3583.827 (3) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+3583.832 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+3583.835 (3) Number of backup sets in history: 2; groups (db): 1
+3583.838 (3) Examining (for databases) backup set with group_id=0, nonce=d3859da5db2d, datestamp=1618554077 (Apr 16 2021 06:21:17)
+3583.838 (3) This backup set is the backup set just made, so will not be deleted.
+3583.838 (3) Examining (for databases) backup set with group_id=0, nonce=cf41cbbad5db, datestamp=1618465768 (Apr 15 2021 05:49:28)
+3583.838 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+3583.840 (3) Number of backup sets in history: 2; groups (files): 1
+3583.842 (3) Examining (for files) backup set with nonce=d3859da5db2d, datestamp=1618554077 (Apr 16 2021 06:21:17)
+3583.842 (3) This backup set is the backup set just made, so will not be deleted.
+3583.843 (3) This backup set is the backup set just made, so will not be deleted.
+3583.844 (3) This backup set is the backup set just made, so will not be deleted.
+3583.844 (3) This backup set is the backup set just made, so will not be deleted.
+3583.844 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+3583.846 (3) Examining (for files) backup set with nonce=cf41cbbad5db, datestamp=1618465768 (Apr 15 2021 05:49:28)
+3583.846 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+3583.847 (3) Retain: saving new backup history (sets now: 2) and finishing retain operation
+3583.852 (3) Resume backup (d3859da5db2d, 3): finish run
+3583.856 (3) [Lock option (updraft_lock_baaea2a2bcea, wp_options) released] info
+3583.859 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+3583.863 (3) The backup has not finished; a resumption is scheduled
+3887.809 (4) Opened log file at time: Fri, 16 Apr 2021 07:26:05 +0000 on https://bush-safe.ga
+3887.810 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.50 WP: 5.7 PHP: 7.4.9 (apache2handler, Linux bush-safe-vm 4.9.0-13-amd64 #1 SMP Debian 4.9.228-1 (2020-07-05) x86_64) MySQL: 5.7.31 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.4M | 4M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: N
+3887.812 (4) Free space on disk containing Updraft's temporary directory: 4813.6 MB
+3887.814 (4) Requesting backup semaphore lock (d3859da5db2d)
+3887.818 (4) Backup run: resumption=4, nonce=d3859da5db2d, file_nonce=d3859da5db2d begun at=1618554077 (3888s ago), job type=backup
+3887.823 (4) Scheduling a resumption (5) after 300 seconds (1618558265) in case this run gets aborted
+3887.827 (4) Checking if we have a zip executable available
+3887.830 (4) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+3887.831 (4) Creation of backups of directories: already finished
+3887.835 (4) Saving backup status to database (elements: 8)
+3887.840 (4) Database dump (WordPress DB): Creation was completed already
+3887.843 (4) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+3887.848 (4) backup_2021-04-16-0621_Bush_Safe_baaea2a2bcea-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+3887.850 (4) backup_2021-04-16-0621_Bush_Safe_baaea2a2bcea-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+3887.852 (4) backup_2021-04-16-0621_Bush_Safe_baaea2a2bcea-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+3887.854 (4) backup_2021-04-16-0621_Bush_Safe_baaea2a2bcea-others.zip: others: This file has not yet been successfully uploaded: will queue
+3887.855 (4) backup_2021-04-16-0621_Bush_Safe_d3859da5db2d-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+3887.858 (4) Saving backup history. Total backup size: Unknown
+3887.863 (4) Requesting upload of the files that have not yet been successfully uploaded (4)
+3887.867 (4) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+3887.868 (4) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-63a9f291e92eb82b7dbab2a149498438)
+3887.870 (4) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+3887.874 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+3887.876 (4) Number of backup sets in history: 2; groups (db): 1
+3887.878 (4) Examining (for databases) backup set with group_id=0, nonce=d3859da5db2d, datestamp=1618554077 (Apr 16 2021 06:21:17)
+3887.878 (4) This backup set is the backup set just made, so will not be deleted.
+3887.878 (4) Examining (for databases) backup set with group_id=0, nonce=cf41cbbad5db, datestamp=1618465768 (Apr 15 2021 05:49:28)
+3887.878 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+3887.880 (4) Number of backup sets in history: 2; groups (files): 1
+3887.882 (4) Examining (for files) backup set with nonce=d3859da5db2d, datestamp=1618554077 (Apr 16 2021 06:21:17)
+3887.882 (4) This backup set is the backup set just made, so will not be deleted.
+3887.883 (4) This backup set is the backup set just made, so will not be deleted.
+3887.883 (4) This backup set is the backup set just made, so will not be deleted.
+3887.883 (4) This backup set is the backup set just made, so will not be deleted.
+3887.883 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+3887.886 (4) Examining (for files) backup set with nonce=cf41cbbad5db, datestamp=1618465768 (Apr 15 2021 05:49:28)
+3887.886 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+3887.886 (4) Retain: saving new backup history (sets now: 2) and finishing retain operation
+3887.891 (4) Resume backup (d3859da5db2d, 4): finish run
+3887.895 (4) [Lock option (updraft_lock_baaea2a2bcea, wp_options) released] info
+3887.899 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+3887.904 (4) The backup has not finished; a resumption is scheduled
+4900.640 (5) Opened log file at time: Fri, 16 Apr 2021 07:42:58 +0000 on https://bush-safe.ga
+4900.643 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.50 WP: 5.7 PHP: 7.4.9 (apache2handler, Linux bush-safe-vm 4.9.0-13-amd64 #1 SMP Debian 4.9.228-1 (2020-07-05) x86_64) MySQL: 5.7.31 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.4M | 4M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: N
+4900.644 (5) Free space on disk containing Updraft's temporary directory: 4813.6 MB
+4900.647 (5) Requesting backup semaphore lock (d3859da5db2d)
+4900.651 (5) Backup run: resumption=5, nonce=d3859da5db2d, file_nonce=d3859da5db2d begun at=1618554077 (4901s ago), job type=backup
+4900.656 (5) Scheduling a resumption (6) after 300 seconds (1618559278) in case this run gets aborted
+4900.662 (5) Checking if we have a zip executable available
+4900.663 (5) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+4900.666 (5) Creation of backups of directories: already finished
+4900.667 (5) Saving backup status to database (elements: 8)
+4900.672 (5) Database dump (WordPress DB): Creation was completed already
+4900.675 (5) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+4900.682 (5) backup_2021-04-16-0621_Bush_Safe_baaea2a2bcea-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+4900.683 (5) backup_2021-04-16-0621_Bush_Safe_baaea2a2bcea-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+4900.686 (5) backup_2021-04-16-0621_Bush_Safe_baaea2a2bcea-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+4900.687 (5) backup_2021-04-16-0621_Bush_Safe_baaea2a2bcea-others.zip: others: This file has not yet been successfully uploaded: will queue
+4900.690 (5) backup_2021-04-16-0621_Bush_Safe_d3859da5db2d-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+4900.691 (5) Saving backup history. Total backup size: Unknown
+4900.696 (5) Requesting upload of the files that have not yet been successfully uploaded (4)
+4900.700 (5) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+4900.702 (5) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-63a9f291e92eb82b7dbab2a149498438)
+4900.703 (5) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+4900.712 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+4900.715 (5) Number of backup sets in history: 2; groups (db): 1
+4900.717 (5) Examining (for databases) backup set with group_id=0, nonce=d3859da5db2d, datestamp=1618554077 (Apr 16 2021 06:21:17)
+4900.717 (5) This backup set is the backup set just made, so will not be deleted.
+4900.717 (5) Examining (for databases) backup set with group_id=0, nonce=cf41cbbad5db, datestamp=1618465768 (Apr 15 2021 05:49:28)
+4900.717 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+4900.718 (5) Number of backup sets in history: 2; groups (files): 1
+4900.719 (5) Examining (for files) backup set with nonce=d3859da5db2d, datestamp=1618554077 (Apr 16 2021 06:21:17)
+4900.720 (5) This backup set is the backup set just made, so will not be deleted.
+4900.722 (5) This backup set is the backup set just made, so will not be deleted.
+4900.722 (5) This backup set is the backup set just made, so will not be deleted.
+4900.722 (5) This backup set is the backup set just made, so will not be deleted.
+4900.722 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+4900.723 (5) Examining (for files) backup set with nonce=cf41cbbad5db, datestamp=1618465768 (Apr 15 2021 05:49:28)
+4900.723 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+4900.724 (5) Retain: saving new backup history (sets now: 2) and finishing retain operation
+4900.727 (5) Resume backup (d3859da5db2d, 5): finish run
+4900.732 (5) [Lock option (updraft_lock_baaea2a2bcea, wp_options) released] info
+4900.736 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+4900.741 (5) The backup has not finished; a resumption is scheduled
+13940.732 (6) Opened log file at time: Fri, 16 Apr 2021 10:13:38 +0000 on https://bush-safe.ga
+13940.735 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.50 WP: 5.7 PHP: 7.4.9 (apache2handler, Linux bush-safe-vm 4.9.0-13-amd64 #1 SMP Debian 4.9.228-1 (2020-07-05) x86_64) MySQL: 5.7.31 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.4M | 6M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: N
+13940.738 (6) Free space on disk containing Updraft's temporary directory: 4815.3 MB
+13940.739 (6) Requesting backup semaphore lock (d3859da5db2d)
+13940.744 (6) Backup run: resumption=6, nonce=d3859da5db2d, file_nonce=d3859da5db2d begun at=1618554077 (13941s ago), job type=backup
+13940.747 (6) Long time past since expected resumption time: approx expected=1618559278.3, now=1618568018.4, diff=8740.1
+13940.750 (6) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+13940.754 (6) Scheduling a resumption (7) after 300 seconds (1618568318) in case this run gets aborted
+13940.759 (6) Checking if we have a zip executable available
+13940.760 (6) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+13940.763 (6) Creation of backups of directories: already finished
+13940.766 (6) Saving backup status to database (elements: 8)
+13940.771 (6) Database dump (WordPress DB): Creation was completed already
+13940.772 (6) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+13940.779 (6) backup_2021-04-16-0621_Bush_Safe_baaea2a2bcea-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+13940.780 (6) backup_2021-04-16-0621_Bush_Safe_baaea2a2bcea-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+13940.783 (6) backup_2021-04-16-0621_Bush_Safe_baaea2a2bcea-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+13940.786 (6) backup_2021-04-16-0621_Bush_Safe_baaea2a2bcea-others.zip: others: This file has not yet been successfully uploaded: will queue
+13940.787 (6) backup_2021-04-16-0621_Bush_Safe_d3859da5db2d-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+13940.790 (6) Saving backup history. Total backup size: Unknown
+13940.794 (6) Requesting upload of the files that have not yet been successfully uploaded (4)
+13940.799 (6) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+13940.802 (6) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-63a9f291e92eb82b7dbab2a149498438)
+13940.803 (6) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+13940.808 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+13940.811 (6) Number of backup sets in history: 2; groups (db): 1
+13940.814 (6) Examining (for databases) backup set with group_id=0, nonce=d3859da5db2d, datestamp=1618554077 (Apr 16 2021 06:21:17)
+13940.814 (6) This backup set is the backup set just made, so will not be deleted.
+13940.814 (6) Examining (for databases) backup set with group_id=0, nonce=cf41cbbad5db, datestamp=1618465768 (Apr 15 2021 05:49:28)
+13940.814 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+13940.815 (6) Number of backup sets in history: 2; groups (files): 1
+13940.817 (6) Examining (for files) backup set with nonce=d3859da5db2d, datestamp=1618554077 (Apr 16 2021 06:21:17)
+13940.817 (6) This backup set is the backup set just made, so will not be deleted.
+13940.819 (6) This backup set is the backup set just made, so will not be deleted.
+13940.819 (6) This backup set is the backup set just made, so will not be deleted.
+13940.819 (6) This backup set is the backup set just made, so will not be deleted.
+13940.819 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+13940.822 (6) Examining (for files) backup set with nonce=cf41cbbad5db, datestamp=1618465768 (Apr 15 2021 05:49:28)
+13940.822 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+13940.822 (6) Retain: saving new backup history (sets now: 2) and finishing retain operation
+13940.827 (6) Resume backup (d3859da5db2d, 6): finish run
+13940.831 (6) [Lock option (updraft_lock_baaea2a2bcea, wp_options) released] info
+13940.836 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+13940.840 (6) The backup has not finished; a resumption is scheduled
+17447.711 (7) Opened log file at time: Fri, 16 Apr 2021 11:12:05 +0000 on https://bush-safe.ga
+17447.712 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.50 WP: 5.7 PHP: 7.4.9 (apache2handler, Linux bush-safe-vm 4.9.0-13-amd64 #1 SMP Debian 4.9.228-1 (2020-07-05) x86_64) MySQL: 5.7.31 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.4M | 8M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: N
+17447.715 (7) Free space on disk containing Updraft's temporary directory: 4815.2 MB
+17447.718 (7) Requesting backup semaphore lock (d3859da5db2d)
+17447.722 (7) Backup run: resumption=7, nonce=d3859da5db2d, file_nonce=d3859da5db2d begun at=1618554077 (17448s ago), job type=backup
+17447.724 (7) Long time past since expected resumption time: approx expected=1618568318.4, now=1618571525.4, diff=3207
+17447.727 (7) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+17447.732 (7) Scheduling a resumption (8) after 300 seconds (1618571825) in case this run gets aborted
+17447.738 (7) Checking if we have a zip executable available
+17447.739 (7) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+17447.742 (7) Creation of backups of directories: already finished
+17447.744 (7) Saving backup status to database (elements: 8)
+17447.750 (7) Database dump (WordPress DB): Creation was completed already
+17447.752 (7) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+17447.758 (7) backup_2021-04-16-0621_Bush_Safe_baaea2a2bcea-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+17447.760 (7) backup_2021-04-16-0621_Bush_Safe_baaea2a2bcea-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+17447.762 (7) backup_2021-04-16-0621_Bush_Safe_baaea2a2bcea-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+17447.764 (7) backup_2021-04-16-0621_Bush_Safe_baaea2a2bcea-others.zip: others: This file has not yet been successfully uploaded: will queue
+17447.766 (7) backup_2021-04-16-0621_Bush_Safe_d3859da5db2d-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+17447.767 (7) Saving backup history. Total backup size: Unknown
+17447.772 (7) Requesting upload of the files that have not yet been successfully uploaded (4)
+17447.778 (7) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+17447.779 (7) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-63a9f291e92eb82b7dbab2a149498438)
+17447.782 (7) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+17447.787 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+17447.790 (7) Number of backup sets in history: 2; groups (db): 1
+17447.792 (7) Examining (for databases) backup set with group_id=0, nonce=d3859da5db2d, datestamp=1618554077 (Apr 16 2021 06:21:17)
+17447.792 (7) This backup set is the backup set just made, so will not be deleted.
+17447.792 (7) Examining (for databases) backup set with group_id=0, nonce=cf41cbbad5db, datestamp=1618465768 (Apr 15 2021 05:49:28)
+17447.792 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+17447.794 (7) Number of backup sets in history: 2; groups (files): 1
+17447.795 (7) Examining (for files) backup set with nonce=d3859da5db2d, datestamp=1618554077 (Apr 16 2021 06:21:17)
+17447.796 (7) This backup set is the backup set just made, so will not be deleted.
+17447.798 (7) This backup set is the backup set just made, so will not be deleted.
+17447.798 (7) This backup set is the backup set just made, so will not be deleted.
+17447.798 (7) This backup set is the backup set just made, so will not be deleted.
+17447.798 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+17447.800 (7) Examining (for files) backup set with nonce=cf41cbbad5db, datestamp=1618465768 (Apr 15 2021 05:49:28)
+17447.800 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+17447.800 (7) Retain: saving new backup history (sets now: 2) and finishing retain operation
+17447.806 (7) Resume backup (d3859da5db2d, 7): finish run
+17447.810 (7) [Lock option (updraft_lock_baaea2a2bcea, wp_options) released] info
+17447.814 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+17447.818 (7) The backup has not finished; a resumption is scheduled
+17753.639 (8) Opened log file at time: Fri, 16 Apr 2021 11:17:11 +0000 on https://bush-safe.ga
+17753.643 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.50 WP: 5.7 PHP: 7.4.9 (apache2handler, Linux bush-safe-vm 4.9.0-13-amd64 #1 SMP Debian 4.9.228-1 (2020-07-05) x86_64) MySQL: 5.7.31 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.4M | 2M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: N
+17753.644 (8) Free space on disk containing Updraft's temporary directory: 4815.1 MB
+17753.647 (8) Requesting backup semaphore lock (d3859da5db2d)
+17753.652 (8) Backup run: resumption=8, nonce=d3859da5db2d, file_nonce=d3859da5db2d begun at=1618554077 (17754s ago), job type=backup
+17753.658 (8) Scheduling a resumption (9) after 300 seconds (1618572131) in case this run gets aborted
+17753.663 (8) Checking if we have a zip executable available
+17753.664 (8) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+17753.667 (8) Creation of backups of directories: already finished
+17753.668 (8) Saving backup status to database (elements: 8)
+17753.675 (8) Database dump (WordPress DB): Creation was completed already
+17753.679 (8) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+17753.684 (8) backup_2021-04-16-0621_Bush_Safe_baaea2a2bcea-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+17753.687 (8) backup_2021-04-16-0621_Bush_Safe_baaea2a2bcea-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+17753.690 (8) backup_2021-04-16-0621_Bush_Safe_baaea2a2bcea-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+17753.692 (8) backup_2021-04-16-0621_Bush_Safe_baaea2a2bcea-others.zip: others: This file has not yet been successfully uploaded: will queue
+17753.695 (8) backup_2021-04-16-0621_Bush_Safe_d3859da5db2d-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+17753.696 (8) Saving backup history. Total backup size: Unknown
+17753.703 (8) Requesting upload of the files that have not yet been successfully uploaded (4)
+17753.708 (8) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+17753.711 (8) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-63a9f291e92eb82b7dbab2a149498438)
+17753.714 (8) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+17753.719 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+17753.723 (8) Number of backup sets in history: 2; groups (db): 1
+17753.726 (8) Examining (for databases) backup set with group_id=0, nonce=d3859da5db2d, datestamp=1618554077 (Apr 16 2021 06:21:17)
+17753.726 (8) This backup set is the backup set just made, so will not be deleted.
+17753.726 (8) Examining (for databases) backup set with group_id=0, nonce=cf41cbbad5db, datestamp=1618465768 (Apr 15 2021 05:49:28)
+17753.726 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+17753.728 (8) Number of backup sets in history: 2; groups (files): 1
+17753.730 (8) Examining (for files) backup set with nonce=d3859da5db2d, datestamp=1618554077 (Apr 16 2021 06:21:17)
+17753.730 (8) This backup set is the backup set just made, so will not be deleted.
+17753.732 (8) This backup set is the backup set just made, so will not be deleted.
+17753.732 (8) This backup set is the backup set just made, so will not be deleted.
+17753.732 (8) This backup set is the backup set just made, so will not be deleted.
+17753.732 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+17753.735 (8) Examining (for files) backup set with nonce=cf41cbbad5db, datestamp=1618465768 (Apr 15 2021 05:49:28)
+17753.735 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+17753.735 (8) Retain: saving new backup history (sets now: 2) and finishing retain operation
+17753.740 (8) Resume backup (d3859da5db2d, 8): finish run
+17753.747 (8) [Lock option (updraft_lock_baaea2a2bcea, wp_options) released] info
+17753.751 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+17753.755 (8) The backup has not finished; a resumption is scheduled
+18071.392 (9) Opened log file at time: Fri, 16 Apr 2021 11:22:29 +0000 on https://bush-safe.ga
+18071.395 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.50 WP: 5.7 PHP: 7.4.9 (apache2handler, Linux bush-safe-vm 4.9.0-13-amd64 #1 SMP Debian 4.9.228-1 (2020-07-05) x86_64) MySQL: 5.7.31 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 8.3M | 2M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: N
+18071.398 (9) Free space on disk containing Updraft's temporary directory: 4815 MB
+18071.399 (9) Requesting backup semaphore lock (d3859da5db2d)
+18071.404 (9) Backup run: resumption=9, nonce=d3859da5db2d, file_nonce=d3859da5db2d begun at=1618554077 (18072s ago), job type=backup
+18071.410 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+18071.414 (9) Scheduling a resumption (10) after 300 seconds (1618572449); but the job will then be aborted unless something happens this time
+18071.418 (9) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+18071.420 (9) Creation of backups of directories: already finished
+18071.422 (9) Saving backup status to database (elements: 8)
+18071.427 (9) Database dump (WordPress DB): Creation was completed already
+18071.431 (9) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+18071.436 (9) backup_2021-04-16-0621_Bush_Safe_baaea2a2bcea-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+18071.439 (9) backup_2021-04-16-0621_Bush_Safe_baaea2a2bcea-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+18071.443 (9) backup_2021-04-16-0621_Bush_Safe_baaea2a2bcea-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+18071.446 (9) backup_2021-04-16-0621_Bush_Safe_baaea2a2bcea-others.zip: others: This file has not yet been successfully uploaded: will queue
+18071.448 (9) backup_2021-04-16-0621_Bush_Safe_d3859da5db2d-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+18071.451 (9) Saving backup history. Total backup size: Unknown
+18071.458 (9) Requesting upload of the files that have not yet been successfully uploaded (4)
+18071.463 (9) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+18071.465 (9) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-63a9f291e92eb82b7dbab2a149498438)
+18071.467 (9) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+18071.471 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+18071.475 (9) Number of backup sets in history: 2; groups (db): 1
+18071.478 (9) Examining (for databases) backup set with group_id=0, nonce=d3859da5db2d, datestamp=1618554077 (Apr 16 2021 06:21:17)
+18071.478 (9) This backup set is the backup set just made, so will not be deleted.
+18071.478 (9) Examining (for databases) backup set with group_id=0, nonce=cf41cbbad5db, datestamp=1618465768 (Apr 15 2021 05:49:28)
+18071.478 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+18071.479 (9) Number of backup sets in history: 2; groups (files): 1
+18071.482 (9) Examining (for files) backup set with nonce=d3859da5db2d, datestamp=1618554077 (Apr 16 2021 06:21:17)
+18071.482 (9) This backup set is the backup set just made, so will not be deleted.
+18071.483 (9) This backup set is the backup set just made, so will not be deleted.
+18071.483 (9) This backup set is the backup set just made, so will not be deleted.
+18071.484 (9) This backup set is the backup set just made, so will not be deleted.
+18071.484 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+18071.486 (9) Examining (for files) backup set with nonce=cf41cbbad5db, datestamp=1618465768 (Apr 15 2021 05:49:28)
+18071.486 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+18071.486 (9) Retain: saving new backup history (sets now: 2) and finishing retain operation
+18071.496 (9) Resume backup (d3859da5db2d, 9): finish run
+18071.502 (9) [Lock option (updraft_lock_baaea2a2bcea, wp_options) released] info
+18071.505 (9) The resumption is being cancelled, as it was only scheduled to enable error reporting, which can be performed now
+18071.509 (9) Fetching RSS news feed
+18071.511 (9) Fetched RSS news feed; result is a: SimplePie
+18071.515 (9) Sending email ('Files and database (Full backup)') report (attachments: 1, size: 35.8 KB) to: surum...
+18071.525 (9) The backup attempt has finished, apparently unsuccessfully

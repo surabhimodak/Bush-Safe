@@ -1,0 +1,20 @@
+table.dataTable thead th.sorting:after {
+    font-family: "Material Icons";
+    content: "unfold_more";
+    padding-left: 0.5em;
+    vertical-align: middle !important;
+}
+
+table.dataTable thead .sorting_asc:after {
+    font-family: "Material Icons";
+    content: "expand_less";
+    padding-left: 0.5em;
+    vertical-align: middle !important;
+}
+
+table.dataTable thead .sorting_desc:after {
+    font-family: "Material Icons";
+    content: "expand_more";
+    padding-left: 0.5em;
+    vertical-align: middle !important;
+}

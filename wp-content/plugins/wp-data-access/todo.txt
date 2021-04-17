@@ -1,0 +1,147 @@
+*** BUGS ***
+
++ After updating a table design the user (sometimes) has to reconcile to reflect the real database table structure
++ Recreate repository not working as expected on WordPress multisite
++ Cannot not use Screen Options for child tables when having more than one child tabs
++ Data Project pages not editable when a remote host is down (solution: use ajax to fill listboxes; does this apply to other plugin pages as well?)
++ When you perform a reconcile, your lookup database/table combinations are messed up (Amy)
++ After adding new parent the child tab is not directly shown (Sebastian)
++ Hyperlinks Behaviour – Unexpected behaviour in Data Projects (https://wordpress.org/support/topic/hyperlinks-behaviour-unexpected-behaviour-in-data-projects/)
++ Fix Data Backups
++ Shortcode wpdadiehard:
+  The date format: in Wordpress my date format is d.m.Y. When i use this to enter date data, in first attempt the date will be turned around; when i correct it,
+  in the second attempt it is correct. By now i have solved it by using the format YYYY-mm-dd to enter data but i would prefer to use the other format. (Barbara)
++ Project tables and dynamic hyperlinks gone after plugin update (multi site - Andrew)
+
+*** WORK IN PROGRESS ***
+
++ Priority
+  + In data Explorer, Manage, search columns, you cannot enable search check box if the column name has a space in it. The update does not change anything. (Charles)
+    + Earlier I reported that Data Explorer->Manage->settings->search settings hung if there was a space in the column name.
+      Today we learned that the same thing happens if there is a ’-‘ in the table name. For example catalogue-1r2 failed/hung but a rename to catalogue_1r2 worked just fine.
+  + Make a field read-only (Forum: rvwill48)
+  + Add option to disable search in Data Projects (Jim Hunter)
+  + Use WordPress|plugin date format in Data Publisher and Data Forms (Joseph + Barbara + Kennie)
+
++ Requests
+  + Add full-text search support to views (Steve)
+  + Define "No search result = show no rows" per page (Charles)
+  + Update CSV records (instead of insert) (Mark Gibbs)
+  + Is it possible to support relationships for view in project templates? (Steve)
+  + Allow to add (1:n | n:m) relationships over multiple databases (Jeremy Gadd)
+  + Make column name available in Data Publisher - for example function fnRowCallback (Cory - https://wpdataaccess.com/docs/documentation/plugin-settings/plugin/#comment-473)
+  + Data backup to CSV (@kfedorov)
+  + Add WordPress user info to WPDADB connection (connect + reuse)
+
++ Improvements
+  + Column-specific search needs to be added in two steps (1) 'Allow ...' (2) 'Enable...' (Alex)
+  + Replace checks table|column exists with backticks (improve performance)
+  + Check for spaces and escape chars when converting schema, table and column names (JS does not support these character in IDs)
+  + Check for wrong usage of schema_name (when used from WPDADB > use $wpdadb->dbname)
+  + Isset - multiple at once
+  + Add jQuery UI to publications
+  + Update date picker to jQuery UI date picker
+  + Move icon to first column for publications with buttons
+  + Show only selected tables in Data Publisher for non admin users
+
++ Data Forms
+  + LOV > unselect previously selected rows when popup is opened repeatively
+  + Add custom button support
+  + Add data import
+  + The date format is YYYY-mm-dd no matter what is defined in the wp data access settings (Barbara)
+  + Add advanced customizing
+    + jQuery DataTables > options
+      + Is there a possibility to change the database symbol at the end of a row? (Barbara)
+    + Angular > extend controller
+  + Check min|max on tinyint|smallint|mediumint|int|bigint not correct
+
++ Documentation
+  + Default database schema per user
+  + Filter option Data Projects
+  + Default order by Data Projects
+  + Video tutorial Data Forms
+  + Video tutorial add Export buttons to publication
+
++ Ideas
+  + Add PHP logger
+
+---
+
++ Add premium videos
+  + Advanced search (multiple)
+  + Inline editing
+  + Data Publisher
+    + Adding buttons
+    + Adding filters > add premium search
+  + Data Projects
+    + Adding filters
+    + Adding inline editing
+  + Data Forms
++ Update existing videos (how to use Project Templates)
++ Add videos to documentation
+  + Data Backup tool
+  + Data Explorer
+  + Data Designer
+  + Data Menus
+
++ Improve demos (show possibilities - premium + code manager)
++ Offer apps (FAQ, SAS, BAS)
+
++ Add support for computed columns (allow to use videos/images in slider/carousel from multiple media columns)
++ Add premium forms builder (dataforms, inline forms?)
++ Add premium report builder (list + single row display, both responsive)
+
++ Update documentation
++ Update readme (add premium features)
++ Update screenshots
+
++ Add media library to front-end (Nick)
++ Add logging to csv import
++ Built layer around wpdb class to limit dcl, ddl and some dml access to admin users only
++ Load attachment in TEXT column to allow full-text indexing
++ Add remove remote database connection to documentation
++ Add Export to PDF to publication (support forum Danielle)
++ Add setting: allow only add existing + delete relationship on child tables for n:m relationship (Mieke)
++ Make parent readonly and child editable (forum support - larryhines)
++ Is it possible to add data to the relationship table in a n:m relationship (Michiel)
++ Use parent column value in child default where (forum support - bb-4)
++ Edit set with checkboxes instead of multi line listbox (Michiel)
++ Overwrite media in WordPress media library (Michiel)
+
++ Showing child rows in edit mode (single child with back-next buttons) (vincent)
++ Add forward/backward buttons to data entry forms related to selection in Data Explorer (form post #12275882 - dizwell)
+
++ Create unique element IDs for parent and child tables having the same column name
++ Capitalize text input (Wolter)
++ Change recreate repository button/action to repair repository
++ Allow to export view data from bulk actions menu (forum support #12131944 - dsbking)
++ Add awesome video tutorials on how to create a scheduled export (comment nacho)
+
+*** RESEACRH ***
+
++ Use custom posts in a Data Project
++ Complex registration page (parent-child)
++ View building (including unique row identification)
++ Add new entry to lookup (Chiara)
++ Perform searching and sorting with ajax WPDA_List_Table (forum support #12470588 - sarveon)
+
+*** NEXT & FEATURE REQUESTS ***
+
++ Search on date column (from-to) (forum: georg2791 - #12490607)
++ Display multiple lookup columns
++ Implement foreign keys in Data Designer
++ Implement compare in Data Designer
++ Use GET and POST vars (old and new) in default where (form post #12232151 - khansadi)
++ Add media to export for media columns
++ Disable edit mode for parent and enable mode for child (form post #11889053 - wpsd2006)
++ Nested lookup in ADD and EDIT page (review wmuskie) already done???
++ Number field formatting
+  + Display a float number with 2 decimal places, or no decimal places etc.
+  + For extra credit a way to display the integer 305623456 as 305-62-3456
+  + A way to display leading 0s so 123 would display as 000123
++ Field formatting e.g. phone number, credit card (review wmuskie)
++ Create and modify views (support forum #11907073 - @Gbade)
++ Backup data to Google Drive and OneDrive
++ Improve table availability check on menu construction
++ Export posts related to static pages in data projects (id +  author)
++ Is it possible to add grid editing with DataTables as an add-on? (YES) (forum post #11660769)

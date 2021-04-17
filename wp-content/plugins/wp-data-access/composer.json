@@ -1,0 +1,18 @@
+{
+  "name": "wp-data-access",
+  "authors": [
+    {
+      "name": "Peter Schulz"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "WPDataAccess\\": "WPDataAccess/",
+      "WPDataProjects\\": "WPDataProjects/",
+      "WPDataRoles\\": "WPDataRoles/"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "6.3.3"
+  }
+}

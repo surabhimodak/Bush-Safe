@@ -1,0 +1,42 @@
+.wpdp-md-table {
+    padding: 0;
+    background-color: #fff;
+    width: 100%;
+    border: none;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.wpdp-md-table th {
+    background-color: #f9f9f9;
+}
+
+.row-show-less-more {
+    display: none;
+}
+
+fieldset.wpdp_fieldset legend {
+    margin: 0 0 0 auto;
+}
+
+.wpdp-table-structure tbody tr {
+    background-color: inherit !important;
+}
+
+.wpdp-button-panel {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.wpdp-spacer {
+    height: 5px;
+}
+
+.wpdp-label-colomn {
+    width: 170px !important;
+}
+
+ul.wpdp-reconcile {
+    list-style: inherit;
+    margin-left: 20px;
+}
