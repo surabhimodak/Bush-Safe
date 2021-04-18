@@ -16,3 +16,10 @@ Text Domain: Avada
 .gallery-caption,
 .bypostauthor {
 }
+
+
+.getstarted{
+	
+	z-index: -1 !important;
+	
+}
