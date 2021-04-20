@@ -1,0 +1,476 @@
+0000.001 (0) Opened log file at time: Tue, 20 Apr 2021 05:30:25 +0000 on https://bush-safe.ga
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.50 WP: 5.7 PHP: 7.4.9 (apache2handler, Linux bush-safe-vm 4.9.0-13-amd64 #1 SMP Debian 4.9.228-1 (2020-07-05) x86_64) MySQL: 5.7.31 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.8M | 2M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: N
+0000.008 (0) Free space on disk containing Updraft's temporary directory: 3555.2 MB
+0000.012 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.016 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.023 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1618813542, seconds_ago=83083)
+0000.032 (0) Set semaphore last lock (fd) time to 2021-04-20 05:30:25
+0000.035 (0) Semaphore lock (fd) complete
+0000.044 (0) Backup run: resumption=0, nonce=31d846c3e001, file_nonce=31d846c3e001 begun at=1618896625 (0s ago), job type=backup
+0000.051 (0) Scheduling a resumption (1) after 300 seconds (1618896925) in case this run gets aborted
+0000.056 (0) Checking if we have a zip executable available
+0000.062 (0) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0000.064 (0) Creation of backups of directories: beginning
+0000.075 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.159 (0) Total entities for the zip file: 809 directories, 5591 files (0 skipped as non-modified), 85.7 MB
+0000.170 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 87782.7 KB, split: 409600 KB)
+0000.175 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.179 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.184 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.188 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.192 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.196 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.201 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.204 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.208 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.213 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.217 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0000.221 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0000.226 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0000.230 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0000.234 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 1500 files added (on-disk size: 0 KB)
+0000.238 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 1600 files added (on-disk size: 0 KB)
+0000.242 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 1700 files added (on-disk size: 0 KB)
+0000.246 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 1800 files added (on-disk size: 0 KB)
+0000.250 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 1900 files added (on-disk size: 0 KB)
+0000.254 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 2000 files added (on-disk size: 0 KB)
+0000.258 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 2100 files added (on-disk size: 0 KB)
+0000.263 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 2200 files added (on-disk size: 0 KB)
+0000.267 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 2300 files added (on-disk size: 0 KB)
+0000.273 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 2400 files added (on-disk size: 0 KB)
+0000.277 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 2500 files added (on-disk size: 0 KB)
+0000.282 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 2600 files added (on-disk size: 0 KB)
+0000.286 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 2700 files added (on-disk size: 0 KB)
+0000.290 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 2800 files added (on-disk size: 0 KB)
+0000.295 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 2900 files added (on-disk size: 0 KB)
+0000.299 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 3000 files added (on-disk size: 0 KB)
+0000.304 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 3100 files added (on-disk size: 0 KB)
+0000.308 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 3200 files added (on-disk size: 0 KB)
+0000.312 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 3300 files added (on-disk size: 0 KB)
+0000.317 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 3400 files added (on-disk size: 0 KB)
+0000.321 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 3500 files added (on-disk size: 0 KB)
+0000.325 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 3600 files added (on-disk size: 0 KB)
+0000.330 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 3700 files added (on-disk size: 0 KB)
+0000.334 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 3800 files added (on-disk size: 0 KB)
+0000.339 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 3900 files added (on-disk size: 0 KB)
+0000.344 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 4000 files added (on-disk size: 0 KB)
+0000.348 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 4100 files added (on-disk size: 0 KB)
+0000.353 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 4200 files added (on-disk size: 0 KB)
+0000.357 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 4300 files added (on-disk size: 0 KB)
+0000.362 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 4400 files added (on-disk size: 0 KB)
+0000.367 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 4500 files added (on-disk size: 0 KB)
+0000.371 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 4600 files added (on-disk size: 0 KB)
+0000.376 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 4700 files added (on-disk size: 0 KB)
+0000.381 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 4800 files added (on-disk size: 0 KB)
+0000.386 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 4900 files added (on-disk size: 0 KB)
+0000.390 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 5000 files added (on-disk size: 0 KB)
+0000.395 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 5100 files added (on-disk size: 0 KB)
+0000.400 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 5200 files added (on-disk size: 0 KB)
+0000.404 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 5300 files added (on-disk size: 0 KB)
+0000.409 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 5400 files added (on-disk size: 0 KB)
+0000.414 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip.tmp: 5500 files added (on-disk size: 0 KB)
+0024.730 (0) Created plugins zip (0) - 27520.3 KB in 24.7 s (1116.4 KB/s) (sha1: 0b1e0b1e865fb181f064839cd9390c9d148b96bc, sha256: f05288a63b0ea60e20c9eb975fe4b50c01e5e9c7c7f0174f57fea01fe87415f5)
+0024.738 (0) Beginning creation of dump of themes (split every: 400 MB)
+0024.778 (0) Total entities for the zip file: 367 directories, 2446 files (0 skipped as non-modified), 36.8 MB
+0024.784 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 37689.9 KB, split: 409600 KB)
+0024.789 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0024.793 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0024.798 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0024.803 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0024.807 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0024.812 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0024.816 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0024.821 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0024.825 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0024.829 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0024.834 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-themes.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0024.838 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-themes.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0024.843 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-themes.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0024.847 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-themes.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0024.851 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-themes.zip.tmp: 1500 files added (on-disk size: 0 KB)
+0024.855 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-themes.zip.tmp: 1600 files added (on-disk size: 0 KB)
+0024.860 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-themes.zip.tmp: 1700 files added (on-disk size: 0 KB)
+0024.865 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-themes.zip.tmp: 1800 files added (on-disk size: 0 KB)
+0024.869 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-themes.zip.tmp: 1900 files added (on-disk size: 0 KB)
+0024.873 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-themes.zip.tmp: 2000 files added (on-disk size: 0 KB)
+0024.877 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-themes.zip.tmp: 2100 files added (on-disk size: 0 KB)
+0024.881 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-themes.zip.tmp: 2200 files added (on-disk size: 0 KB)
+0024.885 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-themes.zip.tmp: 2300 files added (on-disk size: 0 KB)
+0024.888 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-themes.zip.tmp: 2400 files added (on-disk size: 0 KB)
+0033.642 (0) Created themes zip (0) - 15663.4 KB in 8.9 s (1760 KB/s) (sha1: d67dc975b848fdd5a52d52a85279d478ec213462, sha256: e7f8e107c183e5219eeb8c07a64de11d5385229b818a5e49dc06a3b37182e3e0)
+0033.650 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0033.653 (0) Looking for candidates to backup in: /var/www/html/wp-content/uploads
+0033.656 (0) finding files: fusion-icons: adding to list (1)
+0033.660 (0) finding files: 2020: adding to list (2)
+0033.662 (0) finding files: fusion-builder-avada-pages: adding to list (3)
+0033.664 (0) finding files: fusion-scripts: adding to list (4)
+0033.667 (0) finding files: fusion-styles: adding to list (5)
+0033.670 (0) finding files: 2021: adding to list (6)
+0033.671 (0) finding files: fusionredux: adding to list (7)
+0033.675 (0) finding files: revisr-backups: skipping: excluded by options (glob)
+0033.678 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0033.694 (0) Total entities for the zip file: 14 directories, 1035 files (0 skipped as non-modified), 197 MB
+0033.698 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 201756.8 KB, split: 409600 KB)
+0033.702 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0033.707 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0033.712 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0033.716 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0033.721 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0033.726 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-uploads.zip.tmp: 600 files added (on-disk size: 0 KB)
+0033.731 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-uploads.zip.tmp: 700 files added (on-disk size: 0 KB)
+0033.736 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-uploads.zip.tmp: 800 files added (on-disk size: 0 KB)
+0033.741 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-uploads.zip.tmp: 900 files added (on-disk size: 0 KB)
+0033.746 (0) Zip: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-uploads.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0045.486 (0) Created uploads zip (0) - 129527.4 KB in 11.8 s (10971.5 KB/s) (sha1: 48dbd789e5d774a37f4ad5654cc882bb91e2fd8e, sha256: d9afc9c993c3dc8ffe3f28433e86c1b686b2647794e4669e7de827b8980ef495)
+0045.494 (0) Beginning backup of other directories found in the content directory (index: 0)
+0045.496 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0045.499 (0) Looking for candidates to backup in: /var/www/html/wp-content
+0045.502 (0) finding files: themes: skipping: this is the themes directory
+0045.504 (0) finding files: uploads: skipping: this is the uploads directory
+0045.507 (0) finding files: index.php: adding to list (1)
+0045.510 (0) finding files: plugins: skipping: this is the plugins directory
+0045.511 (0) finding files: updraft: skipping: this is the updraft directory
+0045.518 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0045.520 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 0 KB, split: 409600 KB)
+0045.535 (0) Created others zip (0) - 0.1 KB in 0 s (7.1 KB/s) (sha1: 25e0198bce2cf5a1eaf4f847cfbb238215fa3463, sha256: 778b8040ef4c27fae2fdf5d9aa579a6fca73dff3a2b859104bdac29a0f1ea004)
+0045.548 (0) Saving backup status to database (elements: 8)
+0045.555 (0) Beginning creation of database dump (WordPress DB)
+0045.559 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0045.566 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0045.590 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+0045.602 (0) Binary mysqldump: error (code: 5)
+0045.619 (0) Table wp_options: Total expected rows (approximate): 382
+0045.706 (0) Table wp_options: Rows added in this batch (next record: 8104): 388 (uncompressed bytes in this segment=1934424) in 0.08 seconds
+0045.717 (0) Table wp_options: finishing file(s) (2, 318.7 KB)
+0045.725 (0) Table wp_users: Total expected rows (approximate): 1
+0045.729 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1382) in 0.00 seconds
+0045.740 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0045.747 (0) Table wp_usermeta: Total expected rows (approximate): 35
+0045.751 (0) Table wp_usermeta: Rows added in this batch (next record: 35): 35 (uncompressed bytes in this segment=10367) in 0.00 seconds
+0045.760 (0) Table wp_usermeta: finishing file(s) (2, 3.2 KB)
+0045.766 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0045.769 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.00 seconds
+0045.778 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0045.783 (0) Table wp_comments: Total expected rows (approximate): 1
+0045.787 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2137) in 0.00 seconds
+0045.795 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0045.801 (0) Table wp_links: Total expected rows (approximate): 0
+0045.804 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.00 seconds
+0045.814 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0045.822 (0) Table wp_postmeta: Total expected rows (approximate): 1595
+0045.843 (0) Table wp_postmeta: Rows added in this batch (next record: 2075): 1708 (uncompressed bytes in this segment=435489) in 0.02 seconds
+0045.854 (0) Table wp_postmeta: finishing file(s) (2, 50.1 KB)
+0045.860 (0) Table wp_posts: Total expected rows (approximate): 836
+0046.083 (0) Table wp_posts: Rows added in this batch (next record: 2569): 1284 (uncompressed bytes in this segment=11894675) in 0.22 seconds
+0046.095 (0) Table wp_posts: finishing file(s) (2, 416.5 KB)
+0046.100 (0) Table wp_term_relationships: Total expected rows (approximate): 20
+0046.108 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 20 (uncompressed bytes in this segment=987) in 0.00 seconds
+0046.115 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0046.122 (0) Table wp_term_taxonomy: Total expected rows (approximate): 8
+0046.128 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 9): 8 (uncompressed bytes in this segment=1192) in 0.00 seconds
+0046.136 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0046.143 (0) Table wp_termmeta: Total expected rows (approximate): 51
+0046.147 (0) Table wp_termmeta: Rows added in this batch (next record: 51): 51 (uncompressed bytes in this segment=2477) in 0.00 seconds
+0046.156 (0) Table wp_termmeta: finishing file(s) (2, 0.8 KB)
+0046.163 (0) Table wp_terms: Total expected rows (approximate): 8
+0046.167 (0) Table wp_terms: Rows added in this batch (next record: 9): 8 (uncompressed bytes in this segment=1012) in 0.00 seconds
+0046.175 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0046.181 (0) Table wp_commentmeta_geo: Total expected rows (approximate): 0
+0046.185 (0) Table wp_commentmeta_geo: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=856) in 0.00 seconds
+0046.195 (0) Table wp_commentmeta_geo: finishing file(s) (2, 0.4 KB)
+0046.200 (0) Table wp_duplicator_packages: Total expected rows (approximate): 0
+0046.204 (0) Table wp_duplicator_packages: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=675) in 0.00 seconds
+0046.212 (0) Table wp_duplicator_packages: finishing file(s) (2, 0.4 KB)
+0046.219 (0) Table wp_fusion_form_entries: Total expected rows (approximate): 12
+0046.224 (0) Table wp_fusion_form_entries: Rows added in this batch (next record: 12): 12 (uncompressed bytes in this segment=1493) in 0.00 seconds
+0046.234 (0) Table wp_fusion_form_entries: finishing file(s) (2, 0.7 KB)
+0046.239 (0) Table wp_fusion_form_fields: Total expected rows (approximate): 4
+0046.244 (0) Table wp_fusion_form_fields: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=935) in 0.00 seconds
+0046.254 (0) Table wp_fusion_form_fields: finishing file(s) (2, 0.5 KB)
+0046.260 (0) Table wp_fusion_form_submissions: Total expected rows (approximate): 3
+0046.265 (0) Table wp_fusion_form_submissions: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1479) in 0.00 seconds
+0046.275 (0) Table wp_fusion_form_submissions: finishing file(s) (2, 0.6 KB)
+0046.280 (0) Table wp_fusion_forms: Total expected rows (approximate): 3
+0046.285 (0) Table wp_fusion_forms: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=770) in 0.00 seconds
+0046.296 (0) Table wp_fusion_forms: finishing file(s) (2, 0.4 KB)
+0046.303 (0) Table wp_gmp_icons: Total expected rows (approximate): 47
+0046.308 (0) Table wp_gmp_icons: Rows added in this batch (next record: 47): 47 (uncompressed bytes in this segment=2718) in 0.00 seconds
+0046.316 (0) Table wp_gmp_icons: finishing file(s) (2, 0.8 KB)
+0046.323 (0) Table wp_gmp_maps: Total expected rows (approximate): 1
+0046.328 (0) Table wp_gmp_maps: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2860) in 0.00 seconds
+0046.339 (0) Table wp_gmp_maps: finishing file(s) (2, 1.3 KB)
+0046.344 (0) Table wp_gmp_marker_groups: Total expected rows (approximate): 0
+0046.349 (0) Table wp_gmp_marker_groups: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=579) in 0.00 seconds
+0046.359 (0) Table wp_gmp_marker_groups: finishing file(s) (2, 0.4 KB)
+0046.365 (0) Table wp_gmp_marker_groups_relation: Total expected rows (approximate): 0
+0046.369 (0) Table wp_gmp_marker_groups_relation: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=528) in 0.00 seconds
+0046.380 (0) Table wp_gmp_marker_groups_relation: finishing file(s) (2, 0.3 KB)
+0046.387 (0) Table wp_gmp_markers: Total expected rows (approximate): 0
+0046.392 (0) Table wp_gmp_markers: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=910) in 0.00 seconds
+0046.402 (0) Table wp_gmp_markers: finishing file(s) (2, 0.4 KB)
+0046.407 (0) Table wp_gmp_membership_presets: Total expected rows (approximate): 1
+0046.412 (0) Table wp_gmp_membership_presets: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=538) in 0.00 seconds
+0046.422 (0) Table wp_gmp_membership_presets: finishing file(s) (2, 0.3 KB)
+0046.427 (0) Table wp_gmp_modules: Total expected rows (approximate): 14
+0046.432 (0) Table wp_gmp_modules: Rows added in this batch (next record: 14): 14 (uncompressed bytes in this segment=1594) in 0.00 seconds
+0046.440 (0) Table wp_gmp_modules: finishing file(s) (2, 0.7 KB)
+0046.446 (0) Table wp_gmp_modules_type: Total expected rows (approximate): 4
+0046.449 (0) Table wp_gmp_modules_type: Rows added in this batch (next record: 7): 4 (uncompressed bytes in this segment=560) in 0.00 seconds
+0046.459 (0) Table wp_gmp_modules_type: finishing file(s) (2, 0.4 KB)
+0046.465 (0) Table wp_gmp_options: Total expected rows (approximate): 2
+0046.469 (0) Table wp_gmp_options: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1056) in 0.00 seconds
+0046.479 (0) Table wp_gmp_options: finishing file(s) (2, 0.6 KB)
+0046.485 (0) Table wp_gmp_options_categories: Total expected rows (approximate): 4
+0046.489 (0) Table wp_gmp_options_categories: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=626) in 0.00 seconds
+0046.498 (0) Table wp_gmp_options_categories: finishing file(s) (2, 0.4 KB)
+0046.503 (0) Table wp_gmp_usage_stat: Total expected rows (approximate): 4
+0046.507 (0) Table wp_gmp_usage_stat: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=887) in 0.00 seconds
+0046.518 (0) Table wp_gmp_usage_stat: finishing file(s) (2, 0.5 KB)
+0046.523 (0) Table wp_postmeta_geo: Total expected rows (approximate): 447
+0046.532 (0) Table wp_postmeta_geo: Rows added in this batch (next record: 447): 447 (uncompressed bytes in this segment=34344) in 0.01 seconds
+0046.543 (0) Table wp_postmeta_geo: finishing file(s) (2, 7.2 KB)
+0046.552 (0) Table wp_revisr: Total expected rows (approximate): 67
+0046.557 (0) Table wp_revisr: Rows added in this batch (next record: 67): 67 (uncompressed bytes in this segment=8964) in 0.00 seconds
+0046.567 (0) Table wp_revisr: finishing file(s) (2, 1.4 KB)
+0046.575 (0) Table wp_termmeta_geo: Total expected rows (approximate): 0
+0046.579 (0) Table wp_termmeta_geo: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=826) in 0.00 seconds
+0046.587 (0) Table wp_termmeta_geo: finishing file(s) (2, 0.4 KB)
+0046.592 (0) Table wp_usermeta_geo: Total expected rows (approximate): 0
+0046.597 (0) Table wp_usermeta_geo: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=828) in 0.00 seconds
+0046.606 (0) Table wp_usermeta_geo: finishing file(s) (2, 0.4 KB)
+0046.612 (0) Table wp_wpda_csv_uploads: Total expected rows (approximate): 0
+0046.616 (0) Table wp_wpda_csv_uploads: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=612) in 0.00 seconds
+0046.628 (0) Table wp_wpda_csv_uploads: finishing file(s) (2, 0.4 KB)
+0046.635 (0) Table wp_wpda_logging: Total expected rows (approximate): 0
+0046.639 (0) Table wp_wpda_logging: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=541) in 0.00 seconds
+0046.647 (0) Table wp_wpda_logging: finishing file(s) (2, 0.3 KB)
+0046.653 (0) Table wp_wpda_media: Total expected rows (approximate): 0
+0046.657 (0) Table wp_wpda_media: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=672) in 0.00 seconds
+0046.667 (0) Table wp_wpda_media: finishing file(s) (2, 0.4 KB)
+0046.672 (0) Table wp_wpda_menus: Total expected rows (approximate): 0
+0046.676 (0) Table wp_wpda_menus: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=596) in 0.00 seconds
+0046.687 (0) Table wp_wpda_menus: finishing file(s) (2, 0.3 KB)
+0046.693 (0) Table wp_wpda_project: Total expected rows (approximate): 0
+0046.697 (0) Table wp_wpda_project: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=669) in 0.00 seconds
+0046.709 (0) Table wp_wpda_project: finishing file(s) (2, 0.4 KB)
+0046.716 (0) Table wp_wpda_project_page: Total expected rows (approximate): 0
+0046.722 (0) Table wp_wpda_project_page: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1382) in 0.00 seconds
+0046.732 (0) Table wp_wpda_project_page: finishing file(s) (2, 0.5 KB)
+0046.738 (0) Table wp_wpda_project_table: Total expected rows (approximate): 0
+0046.741 (0) Table wp_wpda_project_table: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=628) in 0.00 seconds
+0046.750 (0) Table wp_wpda_project_table: finishing file(s) (2, 0.3 KB)
+0046.756 (0) Table wp_wpda_publisher: Total expected rows (approximate): 0
+0046.760 (0) Table wp_wpda_publisher: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1488) in 0.00 seconds
+0046.770 (0) Table wp_wpda_publisher: finishing file(s) (2, 0.6 KB)
+0046.775 (0) Table wp_wpda_table_design: Total expected rows (approximate): 0
+0046.781 (0) Table wp_wpda_table_design: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=701) in 0.00 seconds
+0046.790 (0) Table wp_wpda_table_design: finishing file(s) (2, 0.4 KB)
+0046.796 (0) Table wp_wpda_table_settings: Total expected rows (approximate): 0
+0046.800 (0) Table wp_wpda_table_settings: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=551) in 0.00 seconds
+0046.811 (0) Table wp_wpda_table_settings: finishing file(s) (2, 0.3 KB)
+0046.817 (0) Table wp_xyz_ips_short_code: Total expected rows (approximate): 1
+0046.822 (0) Table wp_xyz_ips_short_code: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1263) in 0.00 seconds
+0046.833 (0) Table wp_xyz_ips_short_code: finishing file(s) (2, 0.6 KB)
+0046.837 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_options.table.tmpr8105.gz (1/44): adding to final database dump
+0046.912 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_options.table.gz (2/44): adding to final database dump
+0046.915 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_users.table.tmpr2.gz (3/44): adding to final database dump
+0046.918 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_users.table.gz (4/44): adding to final database dump
+0046.920 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_usermeta.table.tmpr36.gz (5/44): adding to final database dump
+0046.923 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_usermeta.table.gz (6/44): adding to final database dump
+0046.926 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_commentmeta.table.tmpr0.gz (7/44): adding to final database dump
+0046.928 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_commentmeta.table.gz (8/44): adding to final database dump
+0046.930 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_comments.table.tmpr2.gz (9/44): adding to final database dump
+0046.932 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_comments.table.gz (10/44): adding to final database dump
+0046.935 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_links.table.tmpr0.gz (11/44): adding to final database dump
+0046.938 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_links.table.gz (12/44): adding to final database dump
+0046.940 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_postmeta.table.tmpr2076.gz (13/44): adding to final database dump
+0046.954 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_postmeta.table.gz (14/44): adding to final database dump
+0046.958 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_posts.table.tmpr2570.gz (15/44): adding to final database dump
+0047.110 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_posts.table.gz (16/44): adding to final database dump
+0047.114 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_term_relationships.table.tmpr100001.gz (17/44): adding to final database dump
+0047.117 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_term_relationships.table.gz (18/44): adding to final database dump
+0047.120 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_term_taxonomy.table.tmpr10.gz (19/44): adding to final database dump
+0047.123 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_term_taxonomy.table.gz (20/44): adding to final database dump
+0047.126 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_termmeta.table.tmpr52.gz (21/44): adding to final database dump
+0047.127 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_termmeta.table.gz (22/44): adding to final database dump
+0047.131 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_terms.table.tmpr10.gz (23/44): adding to final database dump
+0047.132 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_terms.table.gz (24/44): adding to final database dump
+0047.135 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_commentmeta_geo.table.tmpr0.gz (25/44): adding to final database dump
+0047.138 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_commentmeta_geo.table.gz (26/44): adding to final database dump
+0047.139 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_duplicator_packages.table.tmpr0.gz (27/44): adding to final database dump
+0047.143 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_duplicator_packages.table.gz (28/44): adding to final database dump
+0047.144 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_fusion_form_entries.table.tmpr13.gz (29/44): adding to final database dump
+0047.147 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_fusion_form_entries.table.gz (30/44): adding to final database dump
+0047.151 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_fusion_form_fields.table.tmpr5.gz (31/44): adding to final database dump
+0047.154 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_fusion_form_fields.table.gz (32/44): adding to final database dump
+0047.156 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_fusion_form_submissions.table.tmpr4.gz (33/44): adding to final database dump
+0047.159 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_fusion_form_submissions.table.gz (34/44): adding to final database dump
+0047.160 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_fusion_forms.table.tmpr4.gz (35/44): adding to final database dump
+0047.163 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_fusion_forms.table.gz (36/44): adding to final database dump
+0047.166 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_gmp_icons.table.tmpr48.gz (37/44): adding to final database dump
+0047.167 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_gmp_icons.table.gz (38/44): adding to final database dump
+0047.170 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_gmp_maps.table.tmpr2.gz (39/44): adding to final database dump
+0047.172 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_gmp_maps.table.gz (40/44): adding to final database dump
+0047.175 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_gmp_marker_groups.table.tmpr0.gz (41/44): adding to final database dump
+0047.178 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_gmp_marker_groups.table.gz (42/44): adding to final database dump
+0047.180 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_gmp_marker_groups_relation.table.tmpr0.gz (43/44): adding to final database dump
+0047.183 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_gmp_marker_groups_relation.table.gz (44/44): adding to final database dump
+0047.186 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_gmp_markers.table.tmpr0.gz (45/44): adding to final database dump
+0047.190 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_gmp_markers.table.gz (46/44): adding to final database dump
+0047.191 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_gmp_membership_presets.table.tmpr2.gz (47/44): adding to final database dump
+0047.194 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_gmp_membership_presets.table.gz (48/44): adding to final database dump
+0047.196 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_gmp_modules.table.tmpr15.gz (49/44): adding to final database dump
+0047.198 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_gmp_modules.table.gz (50/44): adding to final database dump
+0047.200 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_gmp_modules_type.table.tmpr8.gz (51/44): adding to final database dump
+0047.203 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_gmp_modules_type.table.gz (52/44): adding to final database dump
+0047.206 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_gmp_options.table.tmpr3.gz (53/44): adding to final database dump
+0047.207 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_gmp_options.table.gz (54/44): adding to final database dump
+0047.210 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_gmp_options_categories.table.tmpr5.gz (55/44): adding to final database dump
+0047.212 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_gmp_options_categories.table.gz (56/44): adding to final database dump
+0047.215 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_gmp_usage_stat.table.tmpr5.gz (57/44): adding to final database dump
+0047.219 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_gmp_usage_stat.table.gz (58/44): adding to final database dump
+0047.222 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_postmeta_geo.table.tmpr448.gz (59/44): adding to final database dump
+0047.225 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_postmeta_geo.table.gz (60/44): adding to final database dump
+0047.228 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_revisr.table.tmpr68.gz (61/44): adding to final database dump
+0047.231 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_revisr.table.gz (62/44): adding to final database dump
+0047.235 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_termmeta_geo.table.tmpr0.gz (63/44): adding to final database dump
+0047.237 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_termmeta_geo.table.gz (64/44): adding to final database dump
+0047.239 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_usermeta_geo.table.tmpr0.gz (65/44): adding to final database dump
+0047.242 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_usermeta_geo.table.gz (66/44): adding to final database dump
+0047.243 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_wpda_csv_uploads.table.tmpr0.gz (67/44): adding to final database dump
+0047.246 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_wpda_csv_uploads.table.gz (68/44): adding to final database dump
+0047.247 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_wpda_logging.table.tmpr1.gz (69/44): adding to final database dump
+0047.250 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_wpda_logging.table.gz (70/44): adding to final database dump
+0047.252 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_wpda_media.table.tmpr1.gz (71/44): adding to final database dump
+0047.255 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_wpda_media.table.gz (72/44): adding to final database dump
+0047.258 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_wpda_menus.table.tmpr0.gz (73/44): adding to final database dump
+0047.259 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_wpda_menus.table.gz (74/44): adding to final database dump
+0047.262 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_wpda_project.table.tmpr0.gz (75/44): adding to final database dump
+0047.264 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_wpda_project.table.gz (76/44): adding to final database dump
+0047.266 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_wpda_project_page.table.tmpr0.gz (77/44): adding to final database dump
+0047.268 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_wpda_project_page.table.gz (78/44): adding to final database dump
+0047.271 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_wpda_project_table.table.tmpr1.gz (79/44): adding to final database dump
+0047.274 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_wpda_project_table.table.gz (80/44): adding to final database dump
+0047.275 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_wpda_publisher.table.tmpr0.gz (81/44): adding to final database dump
+0047.278 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_wpda_publisher.table.gz (82/44): adding to final database dump
+0047.280 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_wpda_table_design.table.tmpr1.gz (83/44): adding to final database dump
+0047.283 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_wpda_table_design.table.gz (84/44): adding to final database dump
+0047.286 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_wpda_table_settings.table.tmpr1.gz (85/44): adding to final database dump
+0047.288 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_wpda_table_settings.table.gz (86/44): adding to final database dump
+0047.290 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_xyz_ips_short_code.table.tmpr2.gz (87/44): adding to final database dump
+0047.292 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db-table-wp_xyz_ips_short_code.table.gz (88/44): adding to final database dump
+0047.302 (0) Dumping routines for database wordpress
+0047.306 (0) Dumping routine: wp_buffer_point_m
+0047.309 (0) Dumping routine: wp_buffer_point_mi
+0047.312 (0) Dumping routine: wp_buffer_point_real
+0047.316 (0) Dumping routine: wp_distance_point_m
+0047.319 (0) Dumping routine: wp_distance_point_mi
+0047.323 (0) Dumping routine: wp_distance_point_real
+0047.326 (0) Dumping routine: wp_first_geom
+0047.328 (0) Dumping routine: wp_point_bearing_distance_coord_pair
+0047.331 (0) Dumping routine: wp_point_bearing_distance_to_line
+0047.334 (0) Dumping routine: wp_point_bearing_distance_to_line_m
+0047.335 (0) Dumping routine: wp_point_bearing_distance_to_line_mi
+0047.338 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db.gz: finished writing out complete database file (776 KB)
+0047.362 (0) Total database tables backed up: 44 (backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db.gz, size: 826623, sha1: 219f6878f80441e2ecabc430de6529c7f3c8d59e, sha256: b010c3047b8d2c4ba86663d8944a63aec43052b1643cda8cd7004457c4013fda)
+0047.378 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0047.380 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0047.383 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0047.386 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-others.zip: others: This file has not yet been successfully uploaded: will queue
+0047.388 (0) backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db.gz: db: This file has not yet been successfully uploaded: will queue
+0047.391 (0) Saving backup history. Total backup size: 169.5 MB
+0047.398 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0047.407 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0047.410 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-0fbb4f6a6b1eaa5bcbdb662d9e37550d)
+0051.536 (0) Google Drive: quota usage: used=2106.2 MB, total=10487866.2 MB, available=10485760 MB
+0051.541 (0) Google Drive: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip: Attempting to upload to Google Drive (into folder id: 1qtw6zYdNq6bgETdMkCbk209loQTqfSep)
+0054.340 (0) Googledrive chunked upload: 3.7 % uploaded (1048576)
+0055.856 (0) Googledrive chunked upload: 7.4 % uploaded (2097152 - increasing chunk size to 2048 KB - memory usage: 8.8 / 22)
+0057.503 (0) Googledrive chunked upload: 14.9 % uploaded (4194304 - increasing chunk size to 4096 KB - memory usage: 8.8 / 22)
+0058.835 (0) Googledrive chunked upload: 29.8 % uploaded (8388608 - increasing chunk size to 8192 KB - memory usage: 8.8 / 22)
+0060.840 (0) Googledrive chunked upload: 59.5 % uploaded (16777216 - increasing chunk size to 16384 KB - memory usage: 8.8 / 22)
+0065.692 (0) Googledrive chunked upload: 100 % uploaded (16777216)
+0065.703 (0) Google Drive: OK: Archive backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip uploaded in 14.16 seconds
+0065.707 (0) Recording as successfully uploaded: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip
+0065.718 (0) Deleting local file: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-plugins.zip: OK
+0066.165 (0) Google Drive: quota usage: used=2106.2 MB, total=10487866.2 MB, available=10485760 MB
+0066.168 (0) Google Drive: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-themes.zip: Attempting to upload to Google Drive (into folder id: 1qtw6zYdNq6bgETdMkCbk209loQTqfSep)
+0068.543 (0) Googledrive chunked upload: 6.5 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 8.8 / 22)
+0070.202 (0) Googledrive chunked upload: 19.6 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 8.8 / 22)
+0071.987 (0) Googledrive chunked upload: 45.8 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 8.8 / 22)
+0074.060 (0) Googledrive chunked upload: 98.1 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 8.8 / 22)
+0076.718 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0076.729 (0) Google Drive: OK: Archive backup_2021-04-20-0530_Bush_Safe_31d846c3e001-themes.zip uploaded in 10.56 seconds
+0076.732 (0) Recording as successfully uploaded: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-themes.zip
+0076.743 (0) Deleting local file: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-themes.zip: OK
+0077.181 (0) Google Drive: quota usage: used=2133.1 MB, total=10487893.1 MB, available=10485760 MB
+0077.185 (0) Google Drive: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-uploads.zip: Attempting to upload to Google Drive (into folder id: 1qtw6zYdNq6bgETdMkCbk209loQTqfSep)
+0080.012 (0) Googledrive chunked upload: 0.8 % uploaded (1048576)
+0081.523 (0) Googledrive chunked upload: 1.6 % uploaded (2097152 - increasing chunk size to 2048 KB - memory usage: 8.8 / 22)
+0082.678 (0) Googledrive chunked upload: 3.2 % uploaded (4194304 - increasing chunk size to 4096 KB - memory usage: 8.8 / 22)
+0083.981 (0) Googledrive chunked upload: 6.3 % uploaded (8388608 - increasing chunk size to 8192 KB - memory usage: 8.8 / 22)
+0085.960 (0) Googledrive chunked upload: 12.6 % uploaded (16777216 - increasing chunk size to 16384 KB - memory usage: 8.8 / 22)
+0088.433 (0) Googledrive chunked upload: 25.3 % uploaded (33554432 - increasing chunk size to 32768 KB - memory usage: 8.8 / 22)
+0091.437 (0) Googledrive chunked upload: 50.6 % uploaded (67108864)
+0094.432 (0) Googledrive chunked upload: 75.9 % uploaded (100663296)
+0098.729 (0) Googledrive chunked upload: 100 % uploaded (100663296)
+0098.740 (0) Google Drive: OK: Archive backup_2021-04-20-0530_Bush_Safe_31d846c3e001-uploads.zip uploaded in 21.55 seconds
+0098.743 (0) Recording as successfully uploaded: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-uploads.zip
+0098.772 (0) Deleting local file: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-uploads.zip: OK
+0100.236 (0) Google Drive: quota usage: used=2148.4 MB, total=10487908.4 MB, available=10485760 MB
+0100.240 (0) Google Drive: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-others.zip: Attempting to upload to Google Drive (into folder id: 1qtw6zYdNq6bgETdMkCbk209loQTqfSep)
+0103.439 (0) Googledrive chunked upload: 100 % uploaded
+0103.451 (0) Google Drive: OK: Archive backup_2021-04-20-0530_Bush_Safe_31d846c3e001-others.zip uploaded in 3.21 seconds
+0103.454 (0) Recording as successfully uploaded: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-others.zip
+0103.463 (0) Deleting local file: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-others.zip: OK
+0103.839 (0) Google Drive: quota usage: used=2148.4 MB, total=10487908.4 MB, available=10485760 MB
+0103.843 (0) Google Drive: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db.gz: Attempting to upload to Google Drive (into folder id: 1qtw6zYdNq6bgETdMkCbk209loQTqfSep)
+0107.730 (0) Googledrive chunked upload: 100 % uploaded
+0107.738 (0) Google Drive: OK: Archive backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db.gz uploaded in 3.89 seconds
+0107.740 (0) Recording as successfully uploaded: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db.gz
+0107.748 (0) Deleting local file: backup_2021-04-20-0530_Bush_Safe_31d846c3e001-db.gz: OK
+0107.759 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0107.763 (0) Number of backup sets in history: 3; groups (db): 1
+0107.766 (0) Examining (for databases) backup set with group_id=0, nonce=31d846c3e001, datestamp=1618896625 (Apr 20 2021 05:30:25)
+0107.767 (0) This backup set is the backup set just made, so will not be deleted.
+0107.767 (0) Examining (for databases) backup set with group_id=0, nonce=78f5ee699670, datestamp=1618813542 (Apr 19 2021 06:25:42)
+0107.767 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0107.771 (0) Examining (for databases) backup set with group_id=0, nonce=a401b3d80e85, datestamp=1618723649 (Apr 18 2021 05:27:29)
+0107.771 (0) 1618723649: db: this set includes a database (backup_2021-04-18-0527_Bush_Safe_a401b3d80e85-db.gz); db count is now 2
+0107.771 (0) 1618723649: db: over retain limit (2); will delete this database
+0107.771 (0) Delete file: backup_2021-04-18-0527_Bush_Safe_a401b3d80e85-db.gz, service=googledrive
+0111.119 (0) Google Drive: backup_2021-04-18-0527_Bush_Safe_a401b3d80e85-db.gz: Deletion successful
+0111.127 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0111.131 (0) Number of backup sets in history: 3; groups (files): 1
+0111.135 (0) Examining (for files) backup set with nonce=31d846c3e001, datestamp=1618896625 (Apr 20 2021 05:30:25)
+0111.135 (0) This backup set is the backup set just made, so will not be deleted.
+0111.138 (0) This backup set is the backup set just made, so will not be deleted.
+0111.138 (0) This backup set is the backup set just made, so will not be deleted.
+0111.138 (0) This backup set is the backup set just made, so will not be deleted.
+0111.139 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0111.143 (0) Examining (for files) backup set with nonce=78f5ee699670, datestamp=1618813542 (Apr 19 2021 06:25:42)
+0111.143 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0111.143 (0) Examining (for files) backup set with nonce=a401b3d80e85, datestamp=1618723649 (Apr 18 2021 05:27:29)
+0111.143 (0) plugins: over retain limit (2); will delete this file entity
+0111.143 (0) themes: over retain limit (2); will delete this file entity
+0111.143 (0) uploads: over retain limit (2); will delete this file entity
+0111.143 (0) others: over retain limit (2); will delete this file entity
+0111.143 (0) Delete file: backup_2021-04-18-0527_Bush_Safe_a401b3d80e85-plugins.zip, service=googledrive
+0111.147 (0) Delete file: backup_2021-04-18-0527_Bush_Safe_a401b3d80e85-themes.zip, service=googledrive
+0111.150 (0) Delete file: backup_2021-04-18-0527_Bush_Safe_a401b3d80e85-uploads.zip, service=googledrive
+0111.154 (0) Delete file: backup_2021-04-18-0527_Bush_Safe_a401b3d80e85-others.zip, service=googledrive
+0112.438 (0) Google Drive: backup_2021-04-18-0527_Bush_Safe_a401b3d80e85-others.zip: Deletion successful
+0113.116 (0) Google Drive: backup_2021-04-18-0527_Bush_Safe_a401b3d80e85-uploads.zip: Deletion successful
+0113.876 (0) Google Drive: backup_2021-04-18-0527_Bush_Safe_a401b3d80e85-themes.zip: Deletion successful
+0114.615 (0) Google Drive: backup_2021-04-18-0527_Bush_Safe_a401b3d80e85-plugins.zip: Deletion successful
+0114.623 (0) This backup set is now empty; will remove from history
+0114.626 (0) Deleting log file (log.a401b3d80e85.txt)
+0114.630 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0114.640 (0) Resume backup (31d846c3e001, 0): finish run
+0114.647 (0) Decremented the semaphore (fd) by 1
+0114.652 (0) Semaphore (fd) unlocked
+0114.655 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0114.664 (0) Fetching RSS news feed
+0115.728 (0) Fetched RSS news feed; result is a: SimplePie
+0115.754 (0) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 0 KB) to: surum...
+0115.768 (0) The backup apparently succeeded and is now complete

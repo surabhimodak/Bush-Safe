@@ -1,0 +1,240 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Frontend Checklist\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-16 11:35+0200\n"
+"PO-Revision-Date: 2019-05-16 11:37+0200\n"
+"Last-Translator: \n"
+"Language-Team: Jonas Breuer <kontakt@j-breuer.de>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_ngettext:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.10\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: frontend-checklist-menu.php:12 frontend-checklist-menu.php:67
+msgid "Frontend Checklist"
+msgstr "Frontend Checklist"
+
+#: frontend-checklist-menu.php:68
+msgid ""
+"Welcome to Frontend Checklist. Just click New Checklist or Edit on an "
+"existing checklist to manage your checklists"
+msgstr ""
+"Herzlich Willkommen bei Frontend Checklist. Klick einfach auf Neue "
+"Checkliste oder auf Ändern, um deine Checklisten zu verwalten"
+
+#: frontend-checklist-menu.php:69
+msgid ""
+"To output a HTML checklist, just enter <code>[frontend-checklist name="
+"\"Standard\"]</code> (replace the name attribute for other checklist names) "
+"into the editor at any place."
+msgstr ""
+"Um eine HTML Checkliste auszugeben, gib einfach <code>[frontend-checklist "
+"name=\"Standard\"]</code> (ersetze das name-Attribut für eine andere "
+"Checkliste) an einer beliebigen Stelle im Editor ein"
+
+#: frontend-checklist-menu.php:70
+msgid ""
+"If you don't want that the status of the checklist is saved via cookie, you "
+"can use this code: <code>[frontend-checklist name=\"Standard\" cookie=\"off"
+"\"]</code> If cookies are off, the plugin will save the status of the "
+"checklist for logged in users in the database."
+msgstr ""
+"Wenn der Status der Checkliste nicht per Cookie gespeichert werden soll, "
+"kannst du diesen Code benutzen: <code>[frontend-checklist name=\"Standard\" "
+"cookie=\"off\"]</code> In diesem Fall wird das Plugin den Status für "
+"eingeloggte User in der Datenbank speichern."
+
+#: frontend-checklist-menu.php:71
+msgid ""
+"To control the cookie lifetime, use the days attribute: <code>[frontend-"
+"checklist name=\"Standard\" days=\"180\"]</code> (default is 365 days)"
+msgstr ""
+"Um die Cookie Lebensdauer zu ändern, kannst du das days Attribut benutzen: "
+"<code>[frontend-checklist name=\"Standard\" days=\"180\"]</code> (Standard "
+"sind 365 Tage)"
+
+#: frontend-checklist-menu.php:72
+msgid ""
+"Link to the PDF-Checklist: <code>[frontend-checklist name=\"Standard\" type="
+"\"pdf\" title=\"My Checklist\" linktext=\"To the Checklist\"]</code>. The "
+"Title is the headline in the PDF file."
+msgstr ""
+"Link zur PDF-Checkliste: <code>[frontend-checklist name=\"Standard\" type="
+"\"pdf\" title=\"Meine Checkliste\" linktext=\"Zur Checkliste\"]</code>. Der "
+"Titel ist die Überschrift in der PDF-Datei."
+
+#: frontend-checklist-menu.php:73
+msgid "Enjoy the plugin!"
+msgstr ""
+"Kennst du schon mein SEO Tool? Mit bananacontent optimierst du deinen "
+"Content, um besser gefunden zu werden. Bequem in deinem WordPress Backend. "
+"<a href=\"https://bananacontent.de\" target=\"_blank\">Hier gehts zu "
+"bananacontent</a>"
+
+#: frontend-checklist-menu.php:74
+msgid "New Checklist"
+msgstr "Neue Checkliste"
+
+#: frontend-checklist-menu.php:79 frontend-checklist-menu.php:87
+#: frontend-checklist-menu.php:121 frontend-checklist-menu.php:194
+msgid "Name"
+msgstr "Name"
+
+#: frontend-checklist-menu.php:80 frontend-checklist-menu.php:88
+#: frontend-checklist-menu.php:122 frontend-checklist-menu.php:195
+msgid "Description"
+msgstr "Beschreibung"
+
+#: frontend-checklist-menu.php:81 frontend-checklist-menu.php:89
+msgid "Syntax"
+msgstr "Syntax"
+
+#: frontend-checklist-menu.php:82 frontend-checklist-menu.php:90
+msgid "Actions"
+msgstr "Aktionen"
+
+#: frontend-checklist-menu.php:95
+#, php-format
+msgid "Do you really want to delete the checklist %s?"
+msgstr "Möchtest du die Checkliste %s wirklich löschen?"
+
+#: frontend-checklist-menu.php:101
+msgid "Edit"
+msgstr "Ändern"
+
+#: frontend-checklist-menu.php:101
+msgid "Delete"
+msgstr "Löschen"
+
+#: frontend-checklist-menu.php:119 frontend-checklist-menu.php:192
+msgid "List settings"
+msgstr "Listen Einstellungen"
+
+#: frontend-checklist-menu.php:125 frontend-checklist-menu.php:198
+msgid "Items"
+msgstr "Punkte"
+
+#: frontend-checklist-menu.php:126 frontend-checklist-menu.php:199
+msgid ""
+"Just enter a number of items (up to 50) without leaving any fields blank. "
+"New fields will appear automatically. You can use HTML."
+msgstr ""
+"Gib einfach eine beliebige Anzahl (bis zu 50) an Punkten ein, die auf der "
+"Checkliste erscheinen sollen, ohne Lücken zu lassen. Neue Felder erscheinen "
+"automatisch. Du kannst auch HTML benutzen"
+
+#: frontend-checklist-menu.php:138 frontend-checklist-menu.php:215
+msgid "Save Changes"
+msgstr "Speichern"
+
+#: frontend-checklist-menu.php:150 frontend-checklist-menu.php:227
+msgid "unnamed"
+msgstr "unbenannt"
+
+#: frontend-checklist.php:94 frontend-checklist.php:98
+msgid "Checklist"
+msgstr "Checkliste"
+
+#: frontend-checklist.php:215
+msgid "Standard"
+msgstr "Standard"
+
+#~ msgid ""
+#~ "If you have questions abot the plugin or something is not working, <a "
+#~ "href=\"http://www.j-breuer.com/contact/\" target=\"_blank\">send me a "
+#~ "message</a>. I'm always happy to help."
+#~ msgstr ""
+#~ "Wenn du Fragen zum Plugin hast oder etwas nicht richtig funtkioniert, <a "
+#~ "href=\"https://www.j-breuer.de/kontakt/\" target=\"_blank\">schreib mir "
+#~ "eine Nachricht</a>. Ich helfe gerne."
+
+#~ msgid ""
+#~ "<h3>Frontend Checklist Update Required</h3><p>Hey %s, there is a new "
+#~ "version of Frontend Checklist. Please update as soon as possible to "
+#~ "ensure the safety and compatibility of your site. Are you annoyed by "
+#~ "constantly updating plugins and always worrying about breaking something? "
+#~ "Check out my new service <a href=\"http://www.j-breuer.com/maintenance-"
+#~ "power/\" target=\"_blank\">Maintenance Power</a>."
+#~ msgstr ""
+#~ "<h3>Frontend Checklist Update erforderlich</h3><p>Hey %s, es gibt eine "
+#~ "neue Version von Frontend Checklist. Zur Sicherheit und Kompatibilität "
+#~ "solltest du immer auf die neueste Version aktualisieren. Bist du genervt "
+#~ "von ständigen Plugin Updates und hast immer Angst, dass etwas kaputt "
+#~ "geht? Guck dir mal meinen neuen Service <a href=\"https://www.j-breuer.de/"
+#~ "maintenance-power/\" target=\"_blank\">Maintenance Power</a> an."
+
+#~ msgid ""
+#~ "If you like the plugin and if you have a blog where it suits, I would "
+#~ "appreciate a presentation of the plugin. You can find more about the "
+#~ "plugin and my work as a web developer on  <a href=\"http://www.j-breuer."
+#~ "de/blog/\" target=\"_blank\">my blog (German)</a>. I always appreciate "
+#~ "ideas about how to improve the plugin."
+#~ msgstr ""
+#~ "Sollte dir das Plugin gefallen und du einen Blog haben, wo es thematisch "
+#~ "passt, würde ich mich über eine Vorstellung des Plugins sehr freuen. Mehr "
+#~ "Infos zum Plugin und zu meiner Arbeit als Webentwickler gibt es auf <a "
+#~ "href=\"http://www.j-breuer.de/blog/\" target=\"_blank\">meinem Blog</a>. "
+#~ "Ich freue mich jederzeit über Vorschläge zur Verbesserung des Plugins."
+
+#~ msgid ""
+#~ "To output a HTML checklist, just enter <code>[frontend-checklist name="
+#~ "\"Standard\"]</code> (replace the name attribute for other checklist "
+#~ "names) into the editor at any place.<br />If you don't want that the "
+#~ "status of the checklist is saved via cookie, you can use this code: "
+#~ "<code>[frontend-checklist name=\"Standard\" cookie=\"off\"]</code><br /"
+#~ ">Link to the PDF-Checklist: <code>[frontend-checklist name=\"Standard\" "
+#~ "type=\"pdf\" title=\"My Checklist\" linktext=\"To the Checklist\"]</"
+#~ "code>. The Title is the headline in the PDF file."
+#~ msgstr ""
+#~ "Zum Ausgeben der HTML Checkliste einfach den Tag <code>[frontend-"
+#~ "checklist name=\"Standard\"] </code> (ersetze das name-Attribut für "
+#~ "andere Checklisten) im Editor an der gewünschten Stelle eingeben.<br /"
+#~ ">Sollen die abgehakten Punkte nicht gespeichert werden, kann dieser Code "
+#~ "benutzt werden: <code>[frontend-checklist name=\"Standard\" cookie=\"off"
+#~ "\"]</code><br />Link auf eine PDF-Checkliste: <code>[frontend-checklist "
+#~ "name=\"Standard\" type=\"pdf\" title=\"Meine Checkliste\" linktext=\"Zur "
+#~ "Checkliste\"]</code>. Der Title erscheint in der PDF-Datei als "
+#~ "Überschrift."
+
+#~ msgid "To-Dos"
+#~ msgstr "To-Dos"
+
+#~ msgid "Number of To-Dos (max.50)"
+#~ msgstr "Anzahl To-Dos (max. 50)"
+
+#~ msgid ""
+#~ "Welcome to Frontend Checklist. Just enter the number of To-Dos in the "
+#~ "first field. Write the To-Dos into the other fields without leaving a "
+#~ "field blank. You can also use HTML, if you want."
+#~ msgstr ""
+#~ "Herzlich Willkommen zu Frontend Checklist! Gib einfach im ersten Feld die "
+#~ "gewünschte Anzahl an To-Dos an. Schreib dann die  ToDos untereinander in "
+#~ "die Felder, ohne Lücken zu lassen. Du kannst auch HTML verwenden."
+
+#~ msgid ""
+#~ "Herzlich Willkommen zu Frontend Checklist! Gib einfach im ersten Feld die "
+#~ "gewünschte Anzahl an To-Dos an. Schreib dann die  ToDos untereinander in "
+#~ "die Felder, ohne Lücken zu lassen. Du kannst auch HTML verwenden."
+#~ msgstr ""
+#~ "Welcome to Frontend Checklist. Just enter the number of To-Dos in the "
+#~ "first field. Write the To-Dos into the other fields without leaving a "
+#~ "field blank. You can also use HTML, if you want."
+
+#~ msgid ""
+#~ "Sollte dir das Plugin gefallen und du einen Blog haben, wo es thematisch "
+#~ "passt, würde ich mich über eine Vorstellung des Plugins sehr freuen. Mehr "
+#~ "Infos zum Plugin und zu meiner Arbeit als Webentwickler gibt es auf <a "
+#~ "href=\"http://www.j-breuer.de/blog/\" target=\"_blank\">meinem Blog</a>. "
+#~ "Ich freue mich jederzeit über Vorschläge zur Verbesserung des Plugins."
+#~ msgstr ""
+#~ "If you like the plugin and if you have a blog where it suits, I would "
+#~ "appreciate a presentation of the plugin. You can find more about the "
+#~ "plugin and my work as a web developer on  <a href=\"http://www.j-breuer."
+#~ "de/blog/\" target=\"_blank\">my blog (German)</a>. I always appreciate "
+#~ "ideas about how to improve the plugin."
